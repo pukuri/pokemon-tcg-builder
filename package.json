@@ -1,0 +1,9 @@
+{
+  "name": "pokemon-tcg-deck-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tiny local viewer for the built Pokémon TCG decks (shows card images).",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

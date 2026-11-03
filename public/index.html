@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokémon TCG Deck Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <h1>Pokémon TCG <span class="accent">Deck Viewer</span></h1>
+      <p class="tagline">Built decks, with their card art.</p>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <h2>Decks</h2>
+      <nav id="deck-list" class="deck-list">
+        <p class="muted">Loading…</p>
+      </nav>
+    </aside>
+
+    <main id="content" class="content">
+      <p class="empty">Select a deck to see its cards.</p>
+    </main>
+  </div>
+
+  <div id="modal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close" data-close aria-label="Close">&times;</button>
+      <img id="modal-img" class="modal-img" alt="" />
+      <div id="modal-info" class="modal-info"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

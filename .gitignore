@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Downloaded card cache (regenerate with fetch_standard_cards.py)
+data/pokemon_standard/cache/
+
+# Claude Code local state (keep .claude/settings.json and hooks/)
+.claude/settings.local.json
+.claude/state/
+
+# Env / secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log

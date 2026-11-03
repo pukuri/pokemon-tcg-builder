@@ -1,0 +1,173 @@
+{
+  "deck_name": "Slowking",
+  "source": {
+    "archetype_page": "https://limitlesstcg.com/decks/322",
+    "list_page": "https://limitlesstcg.com/decks/list/30523",
+    "result": "Tomás Malaca, 11th place, Regional Nice (17 Oct 2026).",
+    "format": "Standard, Temporal Forces to 30th Celebration",
+    "archetype_record": "16 Regional Top 8s (3 wins)",
+    "note": "A real tournament list. card_text entries are short quotes from data/; see the full text there."
+  },
+  "requirements": "Real tournament list: Slowking copies the attacks of single-Prize Pokémon revealed from the top of the deck, and the deck controls what is on top.",
+  "cards": [
+    { "name": "Slowpoke", "count": 4, "id": "sv07-057", "role": "Basic for Slowking; its first attack recovers a Pokémon from the discard pile." },
+    { "name": "Slowking", "count": 3, "id": "sv07-058", "role": "Main attacker. Seek Inspiration discards the top card of the deck and, if it is a Pokémon without a Rule Box, uses one of that Pokémon's attacks for only Slowking's small cost." },
+    { "name": "Mega Kangaskhan ex", "count": 3, "id": "me01-104", "role": "Draw engine while Active and a strong backup attacker that any Energy can power." },
+    { "name": "Latias ex", "count": 2, "id": "sv08-076", "role": "Free retreat for Basics, so Kangaskhan and the support Pokémon pivot easily." },
+    { "name": "Metagross", "count": 2, "id": "me04-061", "role": "Copy target: a big single hit, or a smaller hit that also forces the opponent's Active to the Bench. Never meant to be evolved." },
+    { "name": "Kyurem", "count": 2, "id": "sv06.5-047", "role": "Copy target: hits 3 opposing Pokémon for 110 each, a huge spread turn for Slowking. Never meant to be played." },
+    { "name": "Annihilape", "count": 1, "id": "me05-041", "role": "Copy target: damage to the Active plus 5 damage counters on a Benched Pokémon." },
+    { "name": "Zeraora", "count": 1, "id": "sv10-078", "role": "Copy target: 210 damage to one opposing Benched Pokémon ex (only a Benched ex), for Slowking's Psychic + Colorless." },
+    { "name": "Meowth ex", "count": 1, "id": "me03-062", "role": "Searches a Supporter when benched." },
+    { "name": "Fezandipiti ex", "count": 1, "id": "me02.5-142", "role": "Draws 3 after a Knock Out." },
+    { "name": "Lillie's Clefairy ex", "count": 1, "id": "sv09-056", "role": "Makes the opponent's Dragon Pokémon weak to Psychic, so Psychic Slowking hits Dragons for double." },
+    { "name": "Lillie's Determination", "count": 4, "id": "me01-119", "role": "Main draw Supporter: 8 cards on the first turn, 6 later." },
+    { "name": "Ciphermaniac's Codebreaking", "count": 3, "id": "sv05-145", "role": "Puts 2 chosen cards on top of the deck: the copy target for this turn's Seek Inspiration and the next one." },
+    { "name": "Surfer", "count": 1, "id": "sv08-187", "role": "Switches your Active and draws up to 5 cards." },
+    { "name": "Poké Pad", "count": 4, "id": "me03-081", "role": "Searches non-Rule-Box Pokémon: Slowpoke, Slowking, or a copy target to set up on top." },
+    { "name": "Wondrous Patch", "count": 3, "id": "me02-094", "role": "Attaches a Psychic Energy from the discard pile to a Benched Psychic Pokémon, powering the next Slowking." },
+    { "name": "Night Stretcher", "count": 3, "id": "me02.5-196", "role": "Recovers Pokémon (including copy targets that Seek Inspiration discarded) or Basic Energy." },
+    { "name": "Ultra Ball", "count": 3, "id": "me01-131", "role": "Searches any Pokémon." },
+    { "name": "Secret Box", "count": 1, "id": "sv06-163", "role": "ACE SPEC: for a 3-card discard, finds an Item, a Tool, a Supporter and a Stadium at once." },
+    { "name": "Switch", "count": 1, "id": "me01-130", "role": "Extra switching for evolved Pokémon, which Latias doesn't cover." },
+    { "name": "Special Red Card", "count": 1, "id": "me04-082", "role": "Late-game hand disruption once the opponent is close to winning." },
+    { "name": "Lucky Helmet", "count": 1, "id": "sv06-158", "role": "Tool that draws 2 when the Active Pokémon wearing it takes damage, ideal on high-HP Kangaskhan." },
+    { "name": "Academy at Night", "count": 4, "id": "sv06.5-054", "role": "Stadium: once a turn, put a card from your hand on top of the deck, such as a copy target right before Seek Inspiration." },
+    { "name": "Telepathic Psychic Energy", "count": 4, "role": "Provides Psychic; when attached from hand to a Psychic Pokémon it benches 2 Basic Psychic Pokémon from the deck, such as Slowpoke." },
+    { "name": "Psychic Energy", "count": 4, "role": "Slowking's attack cost and Wondrous Patch's target." },
+    { "name": "Boomerang Energy", "count": 2, "role": "Comes back after the attack if an attack effect discards it, so copied attacks that discard all Energy (Kyurem, Zeraora) don't cost Slowking its Energy." }
+  ],
+  "strategy": "Build Slowking from Slowpoke, then control the top of the deck with Academy at Night and Ciphermaniac's Codebreaking. Each turn, place a copy target on top and use Seek Inspiration to fire that Pokémon's attack for Slowking's small cost: Kyurem to hit 3 Pokémon, Zeraora or Metagross for a big single hit, Annihilape to add Bench damage. Mega Kangaskhan ex draws while Active and attacks when needed, Latias keeps Basics mobile, and Wondrous Patch and Boomerang Energy keep Slowking powered.",
+  "main_resource": {
+    "resource": "The card on top of the deck when Seek Inspiration is used (a copy target is 6 of 60 cards, 10% at random)",
+    "formula": "Seek Inspiration costs Psychic + Colorless and copies the top card's attack without paying its cost, if it is a Pokémon without a Rule Box: Kyurem 110 to 3 Pokémon, Zeraora 210 to a Benched Pokémon ex, Metagross 150, Annihilape 100 + 5 counters on the Bench. The 6 copy targets are 2 Metagross, 2 Kyurem, 1 Annihilape, 1 Zeraora. Each use discards the top card, so each use also spends one.",
+    "cards": [
+      {
+        "name": "Ciphermaniac's Codebreaking",
+        "effect": "puts 2 chosen cards on top: this turn's target and next turn's (3 copies)"
+      },
+      {
+        "name": "Academy at Night",
+        "effect": "puts 1 card from the hand on top once a turn, usually right before Seek Inspiration (4 copies)"
+      },
+      {
+        "name": "Poké Pad",
+        "effect": "finds the copy target (no Rule Box) for Academy to put on top (4 copies)"
+      },
+      {
+        "name": "Ultra Ball",
+        "effect": "finds a copy target for the cost of 2 cards (3 copies)"
+      },
+      {
+        "name": "Night Stretcher",
+        "effect": "returns a discarded copy target to the hand (3 copies)"
+      },
+      {
+        "name": "Slowpoke",
+        "effect": "Dangle Tail puts a Pokémon from the discard pile into the hand for 1 Colorless"
+      },
+      {
+        "name": "Boomerang Energy",
+        "effect": "returns to Slowking after a copied attack that discards all Energy"
+      },
+      {
+        "name": "Wondrous Patch",
+        "effect": "+1 Psychic Energy from the discard pile onto a Benched Psychic Pokémon (3 copies)"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "cards": [
+        "Slowking",
+        "Academy at Night",
+        "Ciphermaniac's Codebreaking",
+        "Poké Pad",
+        "Ultra Ball"
+      ],
+      "card_text": [
+        "Slowking: \"Discard the top card of your deck, and if that card is a Pokémon that doesn't have a Rule Box, choose 1 of its attacks and use it as this attack.\"",
+        "Academy at Night: \"that player may put a card from their hand on top of their deck\"",
+        "Ciphermaniac's Codebreaking: \"Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order.\"",
+        "Poké Pad: \"Search your deck for a Pokémon that doesn't have a Rule Box\""
+      ],
+      "how_they_interact": "Seek Inspiration is a 10% gamble on its own (6 copy targets in 60 cards), so the whole deck exists to make the top card a copy target. Two routes: Ciphermaniac's Codebreaking puts 2 chosen cards on top, or Poké Pad / Ultra Ball finds the target and Academy at Night puts it on top, once a turn. With either route the attack is chosen by you each turn. Limit: Academy at Night works for the opponent too, and Ciphermaniac's is a Supporter, so it competes with Lillie's Determination for the turn."
+    },
+    {
+      "cards": [
+        "Slowking",
+        "Kyurem",
+        "Zeraora",
+        "Metagross",
+        "Annihilape"
+      ],
+      "card_text": [
+        "Kyurem: \"Discard all Energy from this Pokémon. This attack does 110 damage to 3 of your opponent's Pokémon.\"",
+        "Zeraora: \"this attack does 210 damage to 1 of your opponent's Benched Pokémon ex\"",
+        "Metagross: \"Switch out your opponent's Active Pokémon to the Bench.\"",
+        "Annihilape: \"Place 5 damage counters on 1 of your opponent's Benched Pokémon.\""
+      ],
+      "how_they_interact": "Each copy target answers a different board, and the Pokémon never need to be played. Kyurem hits 3 Pokémon for 110 each, Zeraora Knocks Out a Benched Pokémon ex with 210 or less (only a Benched ex), Metagross does 60 and forces the Active out, or 150 as a plain hit, and Annihilape does 100 to the Active and 5 counters on the Bench. Metagross and Annihilape are Stage 2 with no Stage 1 in the deck, so they are only copy targets, never evolved, and Slowking's cost of Psychic + Colorless is far below the Energy their own attacks need."
+    },
+    {
+      "cards": [
+        "Boomerang Energy",
+        "Wondrous Patch",
+        "Telepathic Psychic Energy",
+        "Psychic Energy",
+        "Slowking"
+      ],
+      "card_text": [
+        "Boomerang Energy: \"If this card is discarded by an effect of an attack used by the Pokémon this card is attached to, attach this card from your discard pile to that Pokémon after attacking.\"",
+        "Wondrous Patch: \"Attach a Basic {P} Energy card from your discard pile to 1 of your Benched {P} Pokémon.\"",
+        "Telepathic Psychic Energy: \"search your deck for up to 2 Basic {P} Pokémon and put them onto your Bench\""
+      ],
+      "how_they_interact": "Kyurem and Zeraora discard all Energy from the copier, which is Slowking. Boomerang Energy comes back on its own, but it provides only Colorless, so the Psychic half of Slowking's cost is lost; Wondrous Patch then puts a Psychic Energy from the discard pile onto a Benched Psychic Pokémon (a Slowking to be promoted), so a Knocked Out or emptied Slowking has a replacement. Telepathic Psychic Energy is a Psychic that benches 2 Slowpoke when attached. Limit: Wondrous Patch attaches only to the Bench."
+    },
+    {
+      "cards": [
+        "Night Stretcher",
+        "Slowpoke",
+        "Ultra Ball",
+        "Lillie's Determination"
+      ],
+      "card_text": [
+        "Slowpoke: \"Put a Pokémon from your discard pile into your hand.\"",
+        "Night Stretcher: \"Put a Pokémon or a Basic Energy card from your discard pile into your hand.\""
+      ],
+      "how_they_interact": "The engine spends its own ammunition: each Seek Inspiration discards a copy target, and there are only 6. Night Stretcher (3 copies) and Slowpoke's Dangle Tail (any Pokémon, for 1 Colorless) bring them back to hand, and Ultra Ball's discard cost can be a Slowpoke or an extra target. Lillie's Determination shuffles the hand away, so a copy target in hand should be put on top with Academy first."
+    },
+    {
+      "cards": [
+        "Mega Kangaskhan ex",
+        "Latias ex",
+        "Lucky Helmet",
+        "Switch",
+        "Surfer"
+      ],
+      "card_text": [
+        "Mega Kangaskhan ex: \"Draw 2 cards.\"",
+        "Latias ex: \"Your Basic Pokémon in play have no Retreat Cost.\"",
+        "Lucky Helmet: \"is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), draw 2 cards.\"",
+        "Surfer: \"Switch your Active Pokémon with 1 of your Benched Pokémon. If you do, draw cards until you have 5 cards in your hand.\""
+      ],
+      "how_they_interact": "Mega Kangaskhan ex sits Active to draw 2 and soak hits with 300 HP, and Lucky Helmet draws 2 more when it is hit. Latias ex makes its retreat free (a Basic), so Slowking comes in to attack. Slowking is a Stage 1 with Retreat 3, which Latias does not cover, so Switch and Surfer (a switch that also draws up to 5 cards) take it out afterward."
+    },
+    {
+      "cards": [
+        "Meowth ex",
+        "Fezandipiti ex",
+        "Secret Box",
+        "Special Red Card",
+        "Lillie's Clefairy ex"
+      ],
+      "card_text": [
+        "Meowth ex: \"Search your deck for a Supporter card\"",
+        "Fezandipiti ex: \"if any of your Pokémon were Knocked Out during your opponent's last turn, you may draw 3 cards\"",
+        "Secret Box: \"an Item card, a Pokémon Tool card, a Supporter card, and a Stadium card\"",
+        "Special Red Card: \"You can use this card only if your opponent has 3 or fewer Prize cards remaining.\""
+      ],
+      "how_they_interact": "The toolbox. Meowth ex finds Ciphermaniac's or Lillie's, Secret Box (discard 3) finds Academy at Night, Wondrous Patch, a Supporter and a Tool in one go. Fezandipiti ex draws 3 after a Knock Out, and Special Red Card resets the opponent's hand late. Lillie's Clefairy ex turns Dragon Pokémon weak to Psychic, and Slowking is Psychic, so every attack it copies hits them for double."
+    }
+  ]
+}

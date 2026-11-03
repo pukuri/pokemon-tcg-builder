@@ -1,0 +1,167 @@
+{
+  "deck_name": "Dragapult ex",
+  "source": {
+    "archetype_page": "https://limitlesstcg.com/decks/284",
+    "list_page": "https://limitlesstcg.com/decks/list/29678",
+    "result": "Linked from Yuya Kogai's 5th place, Regional Nice (17 Oct 2026). The list page also credits it to Demi Eaton, 104th at Regional Frankfurt.",
+    "format": "Standard, Temporal Forces to 30th Celebration",
+    "archetype_record": "334 Regional Top 8s (43 wins), 59 International Top 8s (6 wins), 634 decklists",
+    "note": "A real tournament list. card_text entries are short quotes from data/; see the full text there."
+  },
+  "requirements": "Real tournament list: Dragapult ex as the only main attacker, spreading damage across the Bench, with light disruption and comeback cards.",
+  "cards": [
+    { "name": "Dreepy", "count": 4, "id": "sv06-128", "role": "Basic of the main line. 4 copies because a turn-1 Dreepy decides the game." },
+    { "name": "Drakloak", "count": 4, "id": "sv06-129", "role": "Recon Directive picks 1 of the top 2 cards every turn; with several in play it is the deck's draw engine. 4 copies so two can evolve on turn 2." },
+    { "name": "Dragapult ex", "count": 3, "id": "sv06-130", "role": "Main attacker. Phantom Dive hits the Active for 200 and places 6 damage counters on the Bench. 3 copies plus Night Stretcher to recover." },
+    { "name": "Munkidori", "count": 2, "id": "sv06-095", "role": "With Darkness Energy attached, moves up to 3 damage counters from your Pokémon onto an opponent's Pokémon each turn. 2 copies so one is usually ready." },
+    { "name": "Budew", "count": 2, "id": "me02.5-016", "role": "Free attack that stops the opponent playing Items next turn. Strongest early; 0 Retreat Cost so it pivots out easily." },
+    { "name": "Dunsparce", "count": 1, "id": "sv05-128", "role": "Basic for Dudunsparce." },
+    { "name": "Dudunsparce", "count": 1, "id": "sv05-129", "role": "Draw Ability that refills the hand, then returns itself to the deck so it doesn't stay on the Bench as a target." },
+    { "name": "Meowth ex", "count": 1, "id": "me03-062", "role": "Searches a Supporter when benched from hand, so it is an extra copy of whichever Supporter is needed." },
+    { "name": "Fezandipiti ex", "count": 1, "id": "me02.5-142", "role": "Draws 3 after one of your Pokémon was Knocked Out. Darkness type, so Risky Ruins doesn't hurt it." },
+    { "name": "Lillie's Determination", "count": 4, "id": "me01-119", "role": "Main draw Supporter: shuffles the hand away and draws 8 while you have all 6 Prizes, 6 afterwards. 4 copies." },
+    { "name": "Boss's Orders", "count": 3, "id": "me01-114", "role": "Brings a damaged Benched Pokémon into the Active Spot for Phantom Dive to finish." },
+    { "name": "Crispin", "count": 2, "id": "sv07-133", "role": "Finds 2 Basic Energy of different types and attaches one: Fire + Psychic for Phantom Dive, or Darkness for Munkidori." },
+    { "name": "Rosa's Encouragement", "count": 1, "id": "me03-084", "role": "When behind on Prizes, reattaches 2 Basic Energy from the discard pile to a Stage 2, so a fresh Dragapult ex attacks at once." },
+    { "name": "Judge", "count": 1, "id": "me03-076", "role": "Both players shuffle their hands away and draw 4: disrupts a strong opposing hand." },
+    { "name": "Buddy-Buddy Poffin", "count": 4, "id": "sv05-144", "role": "Benches 2 Basics with 70 HP or less (Dreepy, Budew, Dunsparce) from the deck. Munkidori (110 HP) and Meowth ex don't qualify. Best turn-1 card; play it before Risky Ruins." },
+    { "name": "Poké Pad", "count": 4, "id": "me03-081", "role": "Searches any Pokémon without a Rule Box at no cost: Drakloak, Munkidori, Budew, Dudunsparce." },
+    { "name": "Crushing Hammer", "count": 4, "id": "me03-071", "role": "Coin flip to discard an opponent's Energy. 4 copies to slow down big attackers." },
+    { "name": "Ultra Ball", "count": 3, "id": "me01-131", "role": "Searches any Pokémon, including Dragapult ex, for 2 other cards from hand. Discarding spare Fire or Psychic Energy sets up Rosa's Encouragement and Night Stretcher." },
+    { "name": "Night Stretcher", "count": 3, "id": "me02.5-196", "role": "Returns a Pokémon or a Basic Energy from the discard pile to the hand: a Knocked Out Dragapult ex, or one of only 9 Energy. 3 copies." },
+    { "name": "Unfair Stamp", "count": 1, "id": "sv06-165", "role": "ACE SPEC. After one of your Pokémon was Knocked Out: both hands are shuffled away, you draw 5 and the opponent draws 2." },
+    { "name": "Risky Ruins", "count": 2, "id": "me01-127", "role": "Stadium: every non-Darkness Basic that gets benched takes 2 damage counters, softening targets for Phantom Dive and feeding Munkidori." },
+    { "name": "Fire Energy", "count": 3, "role": "Half of Phantom Dive's cost." },
+    { "name": "Psychic Energy", "count": 3, "role": "Half of Phantom Dive's cost." },
+    { "name": "Darkness Energy", "count": 3, "role": "Turns on Munkidori's Ability." }
+  ],
+  "strategy": "Bench Dreepy and support Basics with Buddy-Buddy Poffin, draw deep with Lillie's Determination, and lock Items with Budew while evolving. From turn 3, Phantom Dive takes 200 off the Active and spreads 6 counters on the Bench. Munkidori adds 3 per turn and Risky Ruins 2 per Basic the opponent benches, so the Bench hits set up next turn's Knock Out, or two Knock Outs at once. Boss's Orders pulls a damaged Benched Pokémon forward to finish it. Dragapult ex gives up 2 Prizes, and the deck has only 9 Energy, so after a Knock Out Fezandipiti ex, Unfair Stamp and Rosa's Encouragement rebuild the hand and power the next Dragapult ex at once.",
+  "main_resource": {
+    "resource": "Damage counters placed on the opponent's side each turn",
+    "formula": "Phantom Dive: 200 to the Active + 6 counters split across the Bench. Each Munkidori with {D} attached adds 3 more, and Risky Ruins adds 2 to each non-{D} Basic the opponent benches. A Benched Pokémon that took 6 counters last turn, brought up with Boss's Orders, takes 60 + 200 + 60 (2 Munkidori) = 320 and is Knocked Out, even an opposing Dragapult ex.",
+    "cards": [
+      {
+        "name": "Dragapult ex",
+        "effect": "+20 Active counters, +6 Bench counters per attack (Fire + Psychic)"
+      },
+      {
+        "name": "Munkidori",
+        "effect": "+3 per Munkidori with {D} attached, each turn, onto any opposing Pokémon (moved from your own side)"
+      },
+      {
+        "name": "Risky Ruins",
+        "effect": "+2 on each non-{D} Basic the opponent benches; also +2 on your own non-{D} Basics, which Munkidori can move"
+      },
+      {
+        "name": "Boss's Orders",
+        "effect": "0 counters, but moves a damaged Benched target into the 200-damage Active Spot"
+      },
+      {
+        "name": "Darkness Energy",
+        "effect": "Turns Munkidori on (needed for its +3)"
+      },
+      {
+        "name": "Crispin",
+        "effect": "Finds Darkness for Munkidori, or Fire + Psychic for Phantom Dive"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "cards": [
+        "Dragapult ex",
+        "Munkidori",
+        "Risky Ruins",
+        "Boss's Orders",
+        "Darkness Energy"
+      ],
+      "card_text": [
+        "Dragapult ex: \"Phantom Dive\" ... \"Put 6 damage counters on your opponent's Benched Pokémon in any way you like.\"",
+        "Munkidori: \"if this Pokémon has any {D} Energy attached, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent's Pokémon\"",
+        "Risky Ruins: \"Whenever any player puts a Basic non-{D} Pokémon onto their Bench during their turn, place 2 damage counters on that Pokémon.\"",
+        "Boss's Orders: \"Switch in 1 of your opponent's Benched Pokémon to the Active Spot.\""
+      ],
+      "how_they_interact": "The main engine: counters placed now add up to Knock Outs next turn. Bench thresholds: 6 counters Knock Out a 60 HP Basic, or an 80 HP Basic that Ruins already hit. Split 3 + 3, they KO two 50 HP Basics benched under Ruins. Next turn, Boss's Orders brings the Pokémon that took counters into the Active Spot: 60 already on it + 200 from Phantom Dive + 30 per Munkidori. With 2 Munkidori that's 320, enough for a full-HP Dragapult ex. Munkidori moves counters from your own Pokémon, so Ruins hitting your Dreepy, Budew or Munkidori (all non-{D}) is ammunition. Moving them off also heals that Pokémon by 30. Limits: Ruins only triggers on the benching player's own turn. Each Munkidori works once per turn, needs {D} attached, and needs counters on one of your Pokémon to move, from Ruins or from the opponent's attacks. With no counters on your side, the 320 line drops to 260. Phantom Dive's 6 counters are lost if the opponent has an empty Bench."
+    },
+    {
+      "cards": [
+        "Risky Ruins",
+        "Buddy-Buddy Poffin",
+        "Budew",
+        "Dreepy",
+        "Fezandipiti ex"
+      ],
+      "card_text": [
+        "Risky Ruins: \"place 2 damage counters on that Pokémon\"",
+        "Buddy-Buddy Poffin: \"Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench.\""
+      ],
+      "how_they_interact": "Ruins hurts your own setup too. A Dreepy benched under it drops from 70 to 50 HP, and Budew from 30 to 10. Order of play: bench your Basics with Poffin before playing Ruins, and play Ruins on a turn when the opponent still has Basics to bench. Fezandipiti ex is {D}, so Ruins never hits it, and it's the safest Basic to bench late."
+    },
+    {
+      "cards": [
+        "Dreepy",
+        "Drakloak",
+        "Dragapult ex",
+        "Buddy-Buddy Poffin",
+        "Poké Pad",
+        "Ultra Ball",
+        "Lillie's Determination",
+        "Meowth ex",
+        "Dunsparce",
+        "Dudunsparce"
+      ],
+      "card_text": [
+        "Drakloak: \"look at the top 2 cards of your deck and put 1 of them into your hand\"",
+        "Poké Pad: \"Search your deck for a Pokémon that doesn't have a Rule Box\"",
+        "Ultra Ball: \"You can use this card only if you discard 2 other cards from your hand.\"",
+        "Lillie's Determination: \"draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead.\"",
+        "Meowth ex: \"when you play this Pokémon from your hand onto your Bench\" ... \"Search your deck for a Supporter card\"",
+        "Dudunsparce: \"you may draw 3 cards. If you drew any cards in this way, shuffle this Pokémon and all attached cards into your deck.\""
+      ],
+      "how_they_interact": "Turn 1: Poffin benches 2 Dreepy (8 Pokémon search outs: 4 Poffin, 4 Poké Pad for Dreepy, plus Ultra Ball). Lillie's draws 8 only while you still have all 6 Prizes, so it's strongest before your first Knock Out. Turn 2: Poké Pad finds Drakloak, and each Drakloak in play adds 1 chosen card per turn. Two Drakloak add 2 every turn. Poké Pad can't find Dragapult ex (Rule Box), so Ultra Ball and Drakloak find it. Meowth ex works as a 5th Lillie's or a Boss's Orders, but only when benched from hand, and it gives up 2 Prizes. Dudunsparce draws 3 and then shuffles itself away. It never stays as a Prize target, but Dunsparce has to be benched and evolved again for the next use."
+    },
+    {
+      "cards": [
+        "Crispin",
+        "Rosa's Encouragement",
+        "Night Stretcher",
+        "Ultra Ball",
+        "Fire Energy",
+        "Psychic Energy",
+        "Darkness Energy"
+      ],
+      "card_text": [
+        "Crispin: \"Search your deck for up to 2 Basic Energy cards of different types\" ... \"Attach the other to 1 of your Pokémon.\"",
+        "Rosa's Encouragement: \"only if you have more Prize cards remaining than your opponent\" ... \"Attach up to 2 Basic Energy cards from your discard pile to 1 of your Stage 2 Pokémon.\"",
+        "Night Stretcher: \"Put a Pokémon or a Basic Energy card from your discard pile into your hand.\""
+      ],
+      "how_they_interact": "The engine's cost is Energy: each Dragapult ex needs Fire + Psychic, and the deck has only 9 Energy. Crispin is the fastest fix: attach 1 + the turn's manual attachment = Phantom Dive on a fresh Dragapult ex that turn. When the opponent Knocks Out a Dragapult ex, its Fire and Psychic go to the discard pile, and they take 2 Prizes, which usually puts you behind. Rosa's then puts both Energy straight onto the next Dragapult ex, so it attacks without spending the manual attachment (that goes to Darkness for Munkidori). Ultra Ball discarding spare Energy also loads Rosa's, and Night Stretcher returns either a Basic Energy or the Knocked Out Dragapult ex."
+    },
+    {
+      "cards": [
+        "Fezandipiti ex",
+        "Unfair Stamp",
+        "Rosa's Encouragement"
+      ],
+      "card_text": [
+        "Fezandipiti ex: \"if any of your Pokémon were Knocked Out during your opponent's last turn, you may draw 3 cards\"",
+        "Unfair Stamp: \"you draw 5 cards, and your opponent draws 2 cards\"",
+        "Rosa's Encouragement: \"only if you have more Prize cards remaining than your opponent\""
+      ],
+      "how_they_interact": "All three turn on after the opponent takes a Knock Out. Fezandipiti and Stamp need the KO to happen on the opponent's last turn, and Rosa's needs you behind on Prizes. In one turn: Stamp leaves you 5 cards and them 2, Fezandipiti draws 3 more (8 total), and Rosa's powers the next Dragapult ex. Trading Knock Outs suits the deck. Fezandipiti ex gives up 2 Prizes, so keep it benched only once a Knock Out is likely."
+    },
+    {
+      "cards": [
+        "Budew",
+        "Crushing Hammer",
+        "Judge"
+      ],
+      "card_text": [
+        "Budew: \"During your opponent's next turn, they can't play any Item cards from their hand.\"",
+        "Crushing Hammer: \"Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.\"",
+        "Judge: \"Each player shuffles their hand into their deck and draws 4 cards.\""
+      ],
+      "how_they_interact": "Budew's attack costs no Energy, so it locks Items on turns 1-2 while Dreepy evolves (Budew has 0 Retreat, so it pivots out free). 4 Crushing Hammer remove 2 Energy on average (50% each), delaying the opponent's attackers until Dragapult ex is online. Judge cuts a big opposing hand to 4. Play it on a turn when your own hand is small."
+    }
+  ]
+}

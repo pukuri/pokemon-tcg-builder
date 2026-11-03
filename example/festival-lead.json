@@ -1,0 +1,156 @@
+{
+  "deck_name": "Festival Lead (Seaking)",
+  "source": {
+    "archetype_page": "https://limitlesstcg.com/decks/336",
+    "list_page": "https://limitlesstcg.com/decks/list/30519",
+    "result": "Oscar Rivas Perez, 4th place, Regional Nice (17 Oct 2026).",
+    "format": "Standard, Temporal Forces to 30th Celebration",
+    "archetype_record": "8 Regional Top 8s (1 win), 1 International Top 8",
+    "note": "A real tournament list. card_text entries are short quotes from data/; see the full text there."
+  },
+  "requirements": "Real tournament list: single-Prize Pokémon with the Festival Lead Ability attack twice per turn while Festival Grounds is in play, with damage-boosting Tools and Supporters applied to both attacks.",
+  "cards": [
+    { "name": "Grookey", "count": 4, "id": "sv06-014", "role": "Basic for Thwackey." },
+    { "name": "Thwackey", "count": 4, "id": "sv06-015", "role": "Search engine: while your Active Pokémon has Festival Lead, searches the deck for any card each turn. 4 copies so several can run at once." },
+    { "name": "Goldeen", "count": 3, "id": "sv06-044", "role": "Festival Lead Basic: can attack twice early, each attack with a chance to discard an opposing Energy. Also evolves into Seaking." },
+    { "name": "Goldeen", "count": 1, "id": "me05-013", "role": "Sturdier Basic for Seaking (70 HP) without Festival Lead." },
+    { "name": "Seaking", "count": 3, "id": "sv08.5-021", "role": "Main attacker: a 1-Energy attack that does 60 and draws 2. With Festival Lead it attacks twice: 120 damage and 4 cards." },
+    { "name": "Psyduck", "count": 1, "id": "me02.5-039", "role": "Shuts off Abilities that Knock Out their own user, such as Dusclops and Dusknoir's self-KO damage." },
+    { "name": "Shaymin", "count": 1, "id": "sv10-010", "role": "Protects your Benched Pokémon without a Rule Box from attack damage, which is the whole Bench in this deck." },
+    { "name": "Moltres", "count": 1, "id": "me02-014", "role": "Single-Prize backup that does much more damage to Pokémon ex for 1 Fire Energy." },
+    { "name": "Lillie's Determination", "count": 4, "id": "me01-119", "role": "Main draw Supporter, played on setup turns because it can't share a turn with Gladion's. 4 copies." },
+    { "name": "Gladion's Final Battle", "count": 3, "id": "me05-077", "role": "Playable only as the last card in hand: Pokémon without a Rule Box do 80 more damage this turn, which applies to both Festival Lead attacks. A Supporter, so it replaces Lillie's that turn. 3 copies." },
+    { "name": "Boss's Orders", "count": 2, "id": "me01-114", "role": "Gusts a target to the Active Spot." },
+    { "name": "Buddy-Buddy Poffin", "count": 4, "id": "sv05-144", "role": "Benches 2 Basics with 70 HP or less: Grookey, Goldeen, Psyduck. Not Shaymin (80 HP). 4 copies." },
+    { "name": "Poké Pad", "count": 4, "id": "me03-081", "role": "Every Pokémon here lacks a Rule Box, so Poké Pad finds any of them for free." },
+    { "name": "Ultra Ball", "count": 4, "id": "me01-131", "role": "Searches any Pokémon; also empties the hand toward Gladion's Final Battle." },
+    { "name": "Night Stretcher", "count": 3, "id": "me02.5-196", "role": "Recovers a Knocked Out attacker or an Energy." },
+    { "name": "Switch", "count": 1, "id": "me01-130", "role": "Extra way to bring the right attacker Active." },
+    { "name": "Secret Box", "count": 1, "id": "sv06-163", "role": "ACE SPEC: finds an Item, a Tool, a Supporter and a Stadium at once, for example Festival Grounds plus Gladion's Final Battle." },
+    { "name": "Air Balloon", "count": 3, "id": "me02.5-181", "role": "Tool that cuts Retreat Cost by 2, so attackers swap without spending Energy." },
+    { "name": "Brave Bangle", "count": 3, "id": "sv10.5w-080", "role": "Tool: a Pokémon without a Rule Box does 30 more to an opposing Active Pokémon ex, on each of the two attacks." },
+    { "name": "Festival Grounds", "count": 4, "id": "sv06-149", "role": "Required Stadium: turns on Festival Lead, and Pokémon with Energy attached are immune to Special Conditions. 4 copies to keep it in play." },
+    { "name": "Mist Energy", "count": 4, "role": "Provides Colorless Energy (enough for Seaking) and blocks the effects of opposing attacks on the Pokémon it is attached to." },
+    { "name": "Fire Energy", "count": 2, "role": "For Moltres." }
+  ],
+  "strategy": "Keep Festival Grounds in play and attack twice per turn with Festival Lead Pokémon. Seaking's 1-Energy attack does 60 and draws 2, so two attacks mean 120 damage and 4 new cards. Damage boosts apply to both attacks: Brave Bangle adds 30 each against Pokémon ex, and Gladion's Final Battle adds 80 each, enough to Knock Out big Pokémon ex. Thwackey searches any card every turn while a Festival Lead Pokémon is Active. Every Pokémon gives up only 1 Prize, so the opponent needs six Knock Outs.",
+  "main_resource": {
+    "resource": "Damage added to each of Seaking's two attacks per turn (every bonus counts twice)",
+    "formula": "Rapid Draw is 60, plus Brave Bangle 30 (against a Pokémon ex) and Gladion's Final Battle 80. Per hit: 170 against a Pokémon ex, 140 against others. Twice a turn: 340 against a Pokémon ex, 280 against others, for one Energy each, and 4 cards drawn.",
+    "cards": [
+      {
+        "name": "Festival Grounds",
+        "effect": "turns on Festival Lead (a second attack); needs to be in play, 4 copies"
+      },
+      {
+        "name": "Gladion's Final Battle",
+        "effect": "+80 per hit, +160 per turn; only as the last card in hand; a Supporter, so no Lillie's the same turn"
+      },
+      {
+        "name": "Brave Bangle",
+        "effect": "+30 per hit against a Pokémon ex, +60 per turn; Tool, so it replaces Air Balloon on that Pokémon"
+      },
+      {
+        "name": "Thwackey",
+        "effect": "finds any card, so it fetches the missing piece: Grounds, Gladion's, a Tool or Energy for Moltres"
+      },
+      {
+        "name": "Secret Box",
+        "effect": "finds an Item, Tool, Supporter and Stadium at once (Grounds + Gladion's + Bangle)"
+      },
+      {
+        "name": "Moltres",
+        "effect": "110 against a Pokémon ex for 1 Fire Energy (140 with Bangle), but only one attack"
+      },
+      {
+        "name": "Boss's Orders",
+        "effect": "moves the target into range of the two hits"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "cards": [
+        "Seaking",
+        "Goldeen",
+        "Festival Grounds",
+        "Brave Bangle",
+        "Gladion's Final Battle"
+      ],
+      "card_text": [
+        "Seaking: \"If Festival Grounds is in play, this Pokémon may use an attack it has twice.\" ... \"Draw 2 cards.\"",
+        "Brave Bangle: \"the attacks it uses do 30 more damage to your opponent's Active Pokémon ex\"",
+        "Gladion's Final Battle: \"attacks used by your Pokémon that don't have a Rule Box do 80 more damage to your opponent's Active Pokémon\"",
+        "Festival Grounds: \"can't be affected by any Special Conditions\""
+      ],
+      "how_they_interact": "The main engine: every bonus is applied to both attacks. A Seaking with a Brave Bangle that attacks a Pokémon ex after Gladion's does 60 + 30 + 80 = 170 twice, 340 for one Energy, enough for a Pokémon ex with 300 HP. Against a Pokémon that isn't an ex it is 140 twice, 280. Seaking also draws 2 on each attack, 4 cards a turn. Limits: Festival Grounds must be in play (the opponent can replace it with their own Stadium, so 4 copies), Gladion's must be the last card in hand, and a Goldeen with Festival Lead (sv06-044) can also attack twice, but its Whirlpool is only 10 damage before bonuses."
+    },
+    {
+      "cards": [
+        "Gladion's Final Battle",
+        "Buddy-Buddy Poffin",
+        "Ultra Ball",
+        "Poké Pad",
+        "Secret Box",
+        "Night Stretcher",
+        "Lillie's Determination"
+      ],
+      "card_text": [
+        "Gladion's Final Battle: \"You can use this card only when it is the last card in your hand.\"",
+        "Ultra Ball: \"You can use this card only if you discard 2 other cards from your hand.\"",
+        "Secret Box: \"You can use this card only if you discard 3 other cards from your hand.\" ... \"an Item card, a Pokémon Tool card, a Supporter card, and a Stadium card\"",
+        "Lillie's Determination: \"Shuffle your hand into your deck. Then, draw 6 cards.\""
+      ],
+      "how_they_interact": "Gladion's is the condition that is hardest to meet, and Seaking's draws work against it: 4 cards a turn refill the hand. Gladion's is also a Supporter, so Lillie's Determination can't be played on the same turn; use Lillie's on setup turns and Gladion's on the big turn. The way out is to empty the hand with Items before playing Gladion's, in this order: Poffin (1 card, benches 2), Tool and Stadium (1 each), Poké Pad (1 card, finds a Pokémon to bench), then Ultra Ball (3 cards gone, 1 found), whose 2 discards are exactly the cards that are left over. Example: hand of Gladion's, Poffin, Stadium, Ultra Ball and 2 others: Ultra Ball discards the 2 and finds a Pokémon, Poffin, the Stadium and that Pokémon go down, and Gladion's is the last card. Secret Box (3 discarded) can fetch Gladion's, Grounds and Bangle in one go."
+    },
+    {
+      "cards": [
+        "Thwackey",
+        "Grookey",
+        "Seaking",
+        "Goldeen",
+        "Moltres",
+        "Fire Energy",
+        "Night Stretcher"
+      ],
+      "card_text": [
+        "Thwackey: \"if your Active Pokémon has the Festival Lead Ability, you may search your deck for a card and put it into your hand\"",
+        "Moltres: \"If your opponent's Active Pokémon is a Pokémon ex, this attack does 90 more damage.\"",
+        "Night Stretcher: \"Put a Pokémon or a Basic Energy card from your discard pile into your hand.\""
+      ],
+      "how_they_interact": "Thwackey's search needs a Festival Lead Pokémon Active (Seaking or the Goldeen sv06-044), and each Thwackey on the Bench is its own search every turn, 4 copies. Used before Gladion's it finds the card that is missing: Festival Grounds, a Tool, or Gladion's itself as the last card. Moltres is the one-Fire answer to a Pokémon ex (110, or 140 with Bangle) but the deck has only 2 Fire Energy, so Thwackey or Night Stretcher is how it gets its Energy. Moltres has no Festival Lead, so it attacks once."
+    },
+    {
+      "cards": [
+        "Buddy-Buddy Poffin",
+        "Poké Pad",
+        "Grookey",
+        "Goldeen",
+        "Psyduck",
+        "Shaymin"
+      ],
+      "card_text": [
+        "Buddy-Buddy Poffin: \"Search your deck for up to 2 Basic Pokémon with 70 HP or less\"",
+        "Poké Pad: \"Search your deck for a Pokémon that doesn't have a Rule Box\""
+      ],
+      "how_they_interact": "Every Pokémon in the deck has no Rule Box, so Poké Pad finds any of them. Poffin benches Grookey (70 HP), either Goldeen (50 or 70) and Psyduck (70) on turn 1, but not Shaymin (80 HP) or Moltres (120 HP). Goldeen and Grookey have to be in play early because Seaking and Thwackey are Stage 1s that evolve from them."
+    },
+    {
+      "cards": [
+        "Shaymin",
+        "Psyduck",
+        "Mist Energy",
+        "Air Balloon",
+        "Switch",
+        "Boss's Orders"
+      ],
+      "card_text": [
+        "Shaymin: \"Prevent all damage done to your Benched Pokémon that don't have a Rule Box by attacks from your opponent's Pokémon.\"",
+        "Psyduck: \"lose any Ability that requires the Pokémon using it to Knock Out itself\"",
+        "Mist Energy: \"Prevent all effects of attacks used by your opponent's Pokémon done to the Pokémon this card is attached to.\"",
+        "Air Balloon: \"The Retreat Cost of the Pokémon this card is attached to is {C}{C} less.\""
+      ],
+      "how_they_interact": "The Bench is where the engine sits (Thwackey, Goldeen, Grookey), and it has no Rule Box, so Shaymin protects all of it from spread damage. Psyduck turns off Abilities such as Dusknoir's, which would otherwise put 13 counters on any of your Pokémon. Mist Energy gives Colorless for Seaking and blocks effects on it. Air Balloon (a Tool, so not on a Seaking with Bangle) or Switch gets the Active out, and Boss's Orders brings in the target for the two hits."
+    }
+  ]
+}

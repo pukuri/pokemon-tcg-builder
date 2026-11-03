@@ -1,0 +1,542 @@
+{
+  "deck_name": "Mega Darkrai ex Poison",
+  "requirements": "A poison deck (Koffing/Weezing or a suggested alternative) that puts its Pokémon into play quickly and easily, poisons the opponent and takes their Pokémon down fast. Revision: cut Energy from 17 and add Shaymin (Flower Curtain) and Budew (Itchy Pollen).",
+  "cards": [
+    {
+      "name": "Mega Darkrai ex",
+      "id": "me05-048",
+      "count": 4,
+      "role": "Finisher. Abyss Eye Knocks Out any poisoned/confused Active no matter its HP; Dusk Raid hits 220 for 2 Energy. 4 copies: it must be benched on turn 1 (86% with 4, 80% with 3), and only the ones that get Knocked Out give up Prizes."
+    },
+    {
+      "name": "Team Rocket's Zubat",
+      "id": "sv10-120",
+      "count": 4,
+      "role": "Cheapest poisoner: Poison Spray for a single {D}, so it poisons even on turn 1 going second. Max copies because it is the ideal starter and is the best opener after Budew."
+    },
+    {
+      "name": "Pecharunt",
+      "id": "svp-129",
+      "count": 4,
+      "role": "Poison engine: Poison Chain poisons and locks the target in place, and Toxic Subjugation adds 5 counters every Checkup (60+20 per Checkup with Jungle). 4 copies (up from 3, replacing Brute Bonnet) so the Poison engine is found early and can be rebuilt after it is Knocked Out."
+    },
+    {
+      "name": "Pecharunt ex",
+      "id": "sv06.5-039",
+      "count": 1,
+      "role": "Free pivot every turn and the deck's only switching: Subjugating Chains pulls a powered Darkrai into the Active Spot. 1 copy to limit Prize exposure; Ultra Ball finds it."
+    },
+    {
+      "name": "Budew",
+      "count": 2,
+      "id": "me02.5-016",
+      "role": "Turn-1 disruption and free pivot: Itchy Pollen costs no Energy and stops the opponent playing Items next turn (Ultra Ball, Switch, Rare Candy), and Retreat Cost 0 means it never blocks Darkrai. 2 copies so it opens often (lowers mulligans from 14% to 9%); 30 HP, so it is a starter, not a wall."
+    },
+    {
+      "name": "Shaymin",
+      "count": 1,
+      "id": "sv10-010",
+      "role": "Bench protection: Flower Curtain stops attack damage to our Benched non-Rule-Box Pokémon, so snipes like Fezandipiti ex's 100-damage Cruel Arrow can't pick off a 50-HP Zubat or 80-HP Pecharunt. 1 copy: the Ability works from the Bench and one in play is all you need."
+    },
+    {
+      "name": "Toxel",
+      "count": 3,
+      "id": "me02-067",
+      "role": "Basic {D} 70 HP that evolves into Toxtricity. 3 copies, since Toxtricity is useless without it and each Toxel is also an extra Basic for the opening hand (mulligan 7.3% -> 6.2%). Poké Pad and Ultra Ball find it, and Call for Family ({D}) benches 2 Basics if it starts Active."
+    },
+    {
+      "name": "Toxtricity",
+      "count": 2,
+      "id": "me02-068",
+      "role": "Energy engine: Sinister Surge attaches a Basic {D} Energy from the deck to a Benched {D} Pokémon every turn, no Supporter used. 2 copies, because each one can use its own Ability once per turn (2 Energy a turn with both out). Poké Pad and Ultra Ball find it."
+    },
+    {
+      "name": "Lillie's Determination",
+      "id": "me01-119",
+      "count": 4,
+      "role": "Main draw: shuffle and draw 6 (8 on the first turn). 4 copies because the deck needs to dig for Energy and Dark Bell every turn."
+    },
+    {
+      "name": "Janine's Secret Art",
+      "id": "sv06.5-059",
+      "count": 2,
+      "role": "Energy acceleration: 2 extra {D} Energy per use, letting Darkrai attack with Abyss Eye by turn 3. 2 copies because that is all that can be bought; the lost Energy is made up with 3 more Darkness Energy."
+    },
+    {
+      "name": "Boss's Orders",
+      "id": "me01-114",
+      "count": 2,
+      "role": "Gust: drag the Pokémon you want into the Active Spot, then Dark Bell + Abyss Eye it or poison it. 2 copies (all that can be bought); Dark Bell and the poisoners still cover most turns without a gust."
+    },
+    {
+      "name": "Poké Pad",
+      "id": "me02.5-198",
+      "count": 4,
+      "role": "Free search for any single-Prize Pokémon (Zubat, Pecharunt, Budew, Shaymin). 4 copies for turn-1 consistency."
+    },
+    {
+      "name": "Ultra Ball",
+      "id": "me01-131",
+      "count": 4,
+      "role": "Finds any Pokémon including Mega Darkrai ex and Pecharunt ex. 4 copies because it is the main way to find the finisher."
+    },
+    {
+      "name": "Dark Bell",
+      "id": "me05-075",
+      "count": 2,
+      "role": "Same-turn Special Condition: confuses the opponent's non-{D} Active (ours is {D} and unaffected), so Abyss Eye works even after they cure poison. 2 copies: poison is the main source, Dark Bell is the backup after a cure or Boss's Orders; the slot paid for Toxtricity."
+    },
+    {
+      "name": "Switch",
+      "count": 2,
+      "id": "me01-130",
+      "role": "Second way to bring a powered Darkrai Active when Pecharunt ex is missing or prized, and the clean way to move Budew or Shaymin, which Subjugating Chains can't switch (they are {G}). 2 copies: lifts the turn-3 switching check from about 68% to 74%."
+    },
+    {
+      "name": "Night Stretcher",
+      "count": 1,
+      "id": "me02.5-196",
+      "role": "Recovery: gets back a Knocked Out Darkrai or Pecharunt ex, or a Basic Energy. 1 copy (all that can be bought); Ultra Ball discards make it live."
+    },
+    {
+      "name": "Perilous Jungle",
+      "id": "sv05-156",
+      "count": 3,
+      "role": "+2 counters per Checkup on poisoned non-{D} Pokémon; every Pokémon here is {D}, so it only hurts the opponent. 3 copies to replace an opposing Festival Grounds, which would otherwise make Pokémon with Energy immune to poison and Dark Bell."
+    },
+    {
+      "name": "Darkness Energy",
+      "count": 15,
+      "role": "Only Energy type needed. 15, up from 13 in the 4-Janine list: only 2 Janine's Secret Art can be bought (4 Energy from the deck), so Darkrai's 3 Energy has to come mostly from the hand. 15 is a compromise; simulated turn-3 Abyss Eye (draw-free) is about 55%, below the 70% target."
+    }
+  ],
+  "strategy": "Open with Team Rocket's Zubat, Pecharunt or Budew: Zubat or Pecharunt poison the opponent's Active on turn 1-2, or Budew's free Itchy Pollen shuts off their Items while Ultra Ball and Poké Pad fill the Bench with Basics. Shaymin's Flower Curtain keeps the small single-Prize poisoners on the Bench safe from snipes. Janine's Secret Art powers up Mega Darkrai ex on the Bench, then Pecharunt ex's Subjugating Chains (or Switch, or Budew's free retreat) brings it Active, and Abyss Eye Knocks Out the poisoned Active whatever its HP. If the opponent cures or switches out, Boss's Orders + Dark Bell make the new Active Confused in the same turn and Abyss Eye still KOs it. Against Pokémon that stay poisoned, Pecharunt's Toxic Subjugation and Perilous Jungle deal 80 per Checkup, and Dusk Raid finishes them with fewer Energy.",
+  "synergies": [
+    {
+      "cards": [
+        "Team Rocket's Zubat",
+        "Pecharunt",
+        "Mega Darkrai ex"
+      ],
+      "card_text": [
+        "Team Rocket's Zubat: \"Your opponent's Active Pokémon is now Poisoned.\"",
+        "Pecharunt: \"Poison Chain ... is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.\"",
+        "Mega Darkrai ex: \"Abyss Eye: If your opponent's Active Pokémon is affected by a Special Condition, it is Knocked Out.\""
+      ],
+      "how_they_interact": "The cheap poisoners poison the opponent's Active, and Pecharunt also stops it retreating. On your next turn the target is still poisoned, so Darkrai comes in and Abyss Eye Knocks it Out outright, even a 300+ HP Pokémon ex."
+    },
+    {
+      "cards": [
+        "Dark Bell",
+        "Boss's Orders",
+        "Mega Darkrai ex"
+      ],
+      "card_text": [
+        "Dark Bell: \"Both Active non-{D} Pokémon are now Confused.\"",
+        "Boss's Orders: \"Switch in 1 of your opponent's Benched Pokémon to the Active Spot.\"",
+        "Mega Darkrai ex: \"If your opponent's Active Pokémon is affected by a Special Condition, it is Knocked Out.\""
+      ],
+      "how_they_interact": "Confused is a Special Condition, and Darkrai is {D} so Dark Bell never hits it. Boss's Orders pulls any non-{D} target forward, Dark Bell confuses it, and Abyss Eye Knocks it Out the same turn, so the opponent curing poison or switching out does not save them."
+    },
+    {
+      "cards": [
+        "Pecharunt",
+        "Perilous Jungle"
+      ],
+      "card_text": [
+        "Pecharunt: \"put 5 more damage counters on your opponent's Poisoned Pokémon during Pokémon Checkup.\"",
+        "Perilous Jungle: \"put 2 more damage counters on each Poisoned non-{D} Pokémon\""
+      ],
+      "how_they_interact": "Each Checkup, a poisoned non-{D} target takes 1 + 5 + 2 = 8 counters (80 damage), and Checkup happens after both players' turns. Poison Chain stops it retreating, so it takes 10 + 80 + 80 = 170 before your next attack. Every one of our Pokémon is {D}, so our own poisoned Pokémon only take the normal 1 counter."
+    },
+    {
+      "cards": [
+        "Pecharunt ex",
+        "Janine's Secret Art",
+        "Mega Darkrai ex"
+      ],
+      "card_text": [
+        "Pecharunt ex: \"switch 1 of your Benched {D} Pokémon ... with your Active Pokémon. If you do, the new Active Pokémon is now Poisoned.\"",
+        "Janine's Secret Art: \"Choose up to 2 of your {D} Pokémon. For each of those Pokémon, search your deck for a Basic {D} Energy card and attach it\"",
+        "Mega Darkrai ex: \"Dusk Raid ... If your Benched Pokémon have any damage counters on them, this attack does 110 more damage.\""
+      ],
+      "how_they_interact": "Janine puts Energy on the benched Darkrai (and the Active poisoner) without poisoning Darkrai, then Subjugating Chains swaps Darkrai in for free, so no Retreat Cost or card is spent. The self-poison only costs 1 counter per Checkup because Perilous Jungle skips {D} Pokémon. The poisoner that was swapped to the Bench keeps its damage counters, which turns on Dusk Raid's +110 for a 220-damage, 2-Energy attack."
+    },
+    {
+      "cards": [
+        "Perilous Jungle",
+        "Mega Darkrai ex"
+      ],
+      "card_text": [
+        "Perilous Jungle: \"put 2 more damage counters on each Poisoned non-{D} Pokémon\"",
+        "Mega Darkrai ex: \"Dusk Raid ... this attack does 110 more damage.\""
+      ],
+      "how_they_interact": "Opposing Festival Grounds (\"can't be affected by any Special Conditions\") and Mist Energy (\"Prevent all effects of attacks\") turn off poison and Abyss Eye. Playing one of 3 Perilous Jungle discards Festival Grounds and turns the poison plan back on. Against Mist Energy, Dusk Raid still deals damage, because damage isn't an effect."
+    },
+    {
+      "cards": [
+        "Ultra Ball",
+        "Poké Pad",
+        "Mega Darkrai ex",
+        "Pecharunt ex",
+        "Toxel",
+        "Toxtricity"
+      ],
+      "card_text": [
+        "Ultra Ball: \"Search your deck for a Pokémon, reveal it, and put it into your hand.\"",
+        "Poké Pad: \"Search your deck for a Pokémon that doesn't have a Rule Box\""
+      ],
+      "how_they_interact": "The setup needs 3 Basics in play by turn 2: Darkrai, a poisoner and Pecharunt ex. Ultra Ball finds the 2 Rule Box Pokémon, and Poké Pad finds the single-Prize ones (Zubat, Pecharunt, Budew, Shaymin, Toxel, Toxtricity). 8 search Items plus 4 Lillie's Determination put a poisoner in hand on turn 1 93.5% of the time (draw-free); without Precious Trolley the Bench fills a card or two slower. Meowth ex and Brock's Scouting were removed, so Darkrai itself is found only by Ultra Ball (71.3% on turn 1)."
+    },
+    {
+      "cards": [
+        "Lillie's Determination",
+        "Janine's Secret Art",
+        "Darkness Energy",
+        "Night Stretcher"
+      ],
+      "card_text": [
+        "Lillie's Determination: \"Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead.\"",
+        "Janine's Secret Art: \"search your deck for a Basic {D} Energy card and attach it to that Pokémon\"",
+        "Night Stretcher: \"Put a Pokémon or a Basic Energy card from your discard pile into your hand.\""
+      ],
+      "how_they_interact": "With 15 Energy in 60 cards, an 8-card first-turn Lillie's finds about 2 Energy. Janine pulls 2 more from the deck without using hand cards. Night Stretcher returns 1 Energy or a Knocked Out Darkrai from the discard pile (Ultra Ball discards feed it)."
+    },
+    {
+      "cards": [
+        "Budew",
+        "Switch",
+        "Pecharunt ex",
+        "Mega Darkrai ex"
+      ],
+      "card_text": [
+        "Budew: \"During your opponent's next turn, they can't play any Item cards from their hand.\"",
+        "Switch: \"Switch your Active Pokémon with 1 of your Benched Pokémon.\"",
+        "Pecharunt ex: \"switch 1 of your Benched {D} Pokémon ... with your Active Pokémon.\""
+      ],
+      "how_they_interact": "Itchy Pollen costs no Energy, so Budew can attack on the first turn you are allowed to attack, even before any Energy is attached. The opponent then can't play Items like Ultra Ball, Switch or Rare Candy on their next turn, which slows their setup and stops Item switching out of poison. Budew has Retreat Cost 0, so on the Darkrai turn it retreats for free and Darkrai comes Active, with no card used. Subjugating Chains only moves {D} Pokémon, so it can't move Budew or Shaymin ({G}); Switch or Budew's free retreat cover those cases. Limit: Budew's attack uses your attack for the turn, so play it on turns when nothing else can poison."
+    },
+    {
+      "cards": [
+        "Shaymin",
+        "Team Rocket's Zubat",
+        "Pecharunt"
+      ],
+      "card_text": [
+        "Shaymin: \"Prevent all damage done to your Benched Pokémon that don't have a Rule Box by attacks from your opponent's Pokémon.\""
+      ],
+      "how_they_interact": "Our poisoners are small: Zubat has 50 HP, Pecharunt 80 and Budew 30. Snipes common in the example decks, like Fezandipiti ex's Cruel Arrow (100 damage) or Wellspring Ogerpon ex's Torrential Pump (120 to the Bench), would Knock them Out for a Prize each. With Shaymin on the Bench, that damage is prevented, so Pecharunt survives to be swapped Active next turn. Limits: it doesn't protect the Rule Box Pokémon (Darkrai, Pecharunt ex, Meowth ex) or the Active, and it stops damage, not placed damage counters (Dragapult ex's Phantom Dive still works)."
+    },
+    {
+      "cards": [
+        "Toxtricity",
+        "Toxel",
+        "Darkness Energy",
+        "Mega Darkrai ex"
+      ],
+      "card_text": [
+        "Toxtricity: \"Search your deck for a Basic {D} Energy card and attach it to 1 of your Benched {D} Pokémon. Then, shuffle your deck. If you attached Energy to a Pokémon in this way, place 2 damage counters on that Pokémon.\"",
+        "Mega Darkrai ex: \"If your Benched Pokémon have any damage counters on them, this attack does 110 more damage.\""
+      ],
+      "how_they_interact": "Toxel on the Bench on turn 1, evolve on turn 2, then Sinister Surge puts 1 Energy on the Benched Darkrai from the deck with no card from hand: turn 2 = manual attach + Janine + Surge = 3 Energy, so Abyss Eye is live a turn earlier than before. Each Surge places 2 damage counters (20 damage) on the Benched Pokémon, so Dusk Raid does 110 + 110 = 220 with only 2 Energy. Limits: Ability is once per Toxtricity per turn, target must be a Benched {D} Pokémon (Zubat 50 HP, Pecharunt 80 HP and Darkrai 280 HP all are), and the counters are real damage on our side, so Zubat survives only 2 Surges. Counters are not 'damage done by an attack', so Shaymin's Flower Curtain is not needed against it. Order on turn 2: evolve Toxel, Surge onto Darkrai, Janine, manual attach, then Subjugating Chains and attack."
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Mega Dragalge ex",
+      "reason": "Pernicious Poison puts 16 counters per Checkup, the strongest poison in the pool, but it is a Stage 1 (Skrelp first), needs {W}{D} which breaks the mono-Darkness Energy plan and Janine's Secret Art, and it gives up extra Prizes. Too slow for a 'summon fast' deck. (Kept rejected after the Energy cut: fewer Energy makes a second type even harder.)"
+    },
+    {
+      "name": "Munkidori",
+      "reason": "Adrena-Brain moves 3 counters from our poisoned Pokémon to the opponent, a nice fit, but it is {P}: Pecharunt ex can't switch it, it is weak to {D} mirrors, and it needs a {D} Energy that Darkrai wants. The Bench space is better used on poisoners."
+    },
+    {
+      "name": "Brock's Scouting",
+      "reason": "Removed at the user's request. It found 2 Basics or 1 Evolution, but it is a Supporter and only one can be played per turn (Lillie's, Janine and Boss already compete). Turn-1 Darkrai find drops 79.4% -> 71.3%. Meowth ex was removed for the same reason earlier."
+    }
+  ],
+  "comparisons": [
+    {
+      "job": "Pokémon search",
+      "candidates": [
+        "Ultra Ball",
+        "Poké Pad",
+        "Buddy-Buddy Poffin",
+        "Brock's Scouting (rejected)"
+      ],
+      "choice": "4 Ultra Ball + 4 Poké Pad",
+      "why": "Ultra Ball is the only Item that finds Mega Darkrai ex/Pecharunt ex at any time, at the cost of 2 cards (often spare Energy). Poké Pad is free and finds Zubat, Pecharunt, Budew, Shaymin, Toxel and Toxtricity. Poffin only hits Zubat and Toxel, too narrow. Brock's Scouting was removed at the user's request: it competed for the one-Supporter-per-turn slot and its slot went to Toxel and Night Stretcher."
+    },
+    {
+      "job": "Draw",
+      "candidates": [
+        "Lillie's Determination",
+        "Judge",
+        "Gwynn"
+      ],
+      "choice": "4 Lillie's Determination",
+      "why": "Lillie's draws 6, or 8 on the first turn, on every turn of the game. Judge draws only 4 and is disruption more than draw. Gwynn needs non-Rule-Box Pokémon to discard, which are our poisoners."
+    },
+    {
+      "job": "Energy",
+      "candidates": [
+        "Janine's Secret Art",
+        "Toxtricity (Sinister Surge)",
+        "Crispin",
+        "Energy Retrieval"
+      ],
+      "choice": "2 Janine's Secret Art + 2 Toxel + 2 Toxtricity + 15 Darkness Energy",
+      "why": "Janine attaches 2 {D} from the deck at once, but only 2 copies can be bought, so the rest has to come from the hand. Simulated over 20,000 games, turn-3 Abyss Eye draw-free: 13 Energy 54.6%, 15 Energy about 55%, 16 about 58%, 18 about 65%. 15 was chosen on request to avoid flooding; the 3 freed slots went to Switch, Dark Bell and Toxel. Toxtricity's Sinister Surge adds 1 Energy per Toxtricity per turn from the deck without using the Supporter slot, so it stacks with Janine. Crispin and Energy Retrieval cost the Supporter or the hand."
+    },
+    {
+      "job": "Gusting / Special Condition on the target",
+      "candidates": [
+        "Boss's Orders",
+        "Dark Bell",
+        "Pokémon Catcher",
+        "Prime Catcher"
+      ],
+      "choice": "2 Boss's Orders + 3 Dark Bell",
+      "why": "Boss always works; Catcher is a coin flip. Only 2 Boss's Orders can be bought, so a 3rd Dark Bell makes up for it: it gives a Special Condition the same turn so Abyss Eye works even after the opponent cured or switched."
+    },
+    {
+      "job": "Switching",
+      "candidates": [
+        "Pecharunt ex",
+        "Switch",
+        "Budew (Retreat 0)",
+        "Scramble Switch"
+      ],
+      "choice": "1 Pecharunt ex + 2 Switch + 2 Budew (Retreat 0)",
+      "why": "Pecharunt ex gives a free switch every turn but only for {D} Pokémon. Switch covers the games where Pecharunt ex is prized or Knocked Out, and it moves Budew/Shaymin, which Chains can't. Budew retreats for free. The 1 Switch lifts the turn-3 switching check from 68% to 74%. Scramble Switch would take the ACE SPEC."
+    },
+    {
+      "job": "ACE SPEC",
+      "candidates": [
+        "Precious Trolley",
+        "Prime Catcher",
+        "Master Ball"
+      ],
+      "choice": "No ACE SPEC",
+      "why": "Precious Trolley (the first pick) is too expensive to buy, and the other ACE SPECs duplicate cards the deck already has (Boss's Orders, Ultra Ball), so the slot goes to a normal card: the extra Energy, Dark Bell, Switch and Budew."
+    },
+    {
+      "job": "Damage boost",
+      "candidates": [
+        "Binding Mochi",
+        "Perilous Jungle"
+      ],
+      "choice": "3 Perilous Jungle, 0 Binding Mochi",
+      "why": "Mochi's +40 needs our own attacker poisoned and a Tool slot; in the simulator its 2 copies cost ~4% on the turn-3 Abyss Eye check, and Abyss Eye ignores damage anyway. Jungle adds 20 every Checkup against every poisoned non-{D} target. The 3rd Jungle was added to beat opposing Festival Grounds (4 copies in the Festival Lead example)."
+    },
+    {
+      "job": "Recovery",
+      "candidates": [
+        "Night Stretcher",
+        "Sacred Ash",
+        "Energy Retrieval"
+      ],
+      "choice": "1 Night Stretcher",
+      "why": "Night Stretcher gets back either a Pokémon or an Energy, one at a time, whenever you need it. Sacred Ash shuffles cards into the deck, which is too slow. Energy Retrieval only gets back Energy. Only 1 can be bought."
+    },
+    {
+      "job": "Turn-1 disruption",
+      "candidates": [
+        "Budew",
+        "Team Rocket's Zubat"
+      ],
+      "choice": "2 Budew alongside 4 Zubat",
+      "why": "Zubat's Poison Spray needs 1 {D}; Budew's Itchy Pollen needs nothing, so Budew works in hands with no Energy. Zubat starts the Abyss Eye plan, while Budew only delays the opponent. Both are cheap Basics that Poké Pad finds, and 2 Budew lower the mulligan rate from 14.3% to 8.8%."
+    }
+  ],
+  "consistency_checks": [
+    {
+      "name": "A poisoner found on turn 1",
+      "by_turn": 1,
+      "target": 0.85,
+      "why": "The plan starts by poisoning the opponent on turn 1-2.",
+      "need": [
+        {
+          "any_of": [
+            "Team Rocket's Zubat",
+            "Pecharunt",
+            "Poké Pad",
+            "Ultra Ball"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mega Darkrai ex (main attacker) found on turn 1",
+      "by_turn": 1,
+      "target": 0.85,
+      "why": "Darkrai must be benched turn 1 to get 3 Energy by turn 2-3. Meowth ex and Brock's Scouting were removed, so only Darkrai and Ultra Ball count.",
+      "need": [
+        {
+          "any_of": [
+            "Mega Darkrai ex",
+            "Ultra Ball"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poisoner plus its {D} Energy by turn 2",
+      "by_turn": 2,
+      "target": 0.85,
+      "why": "Abyss Eye, Pecharunt's ability and Perilous Jungle all need the opponent poisoned (principle 1).",
+      "need": [
+        {
+          "any_of": [
+            "Team Rocket's Zubat",
+            "Pecharunt",
+            "Poké Pad",
+            "Ultra Ball"
+          ]
+        },
+        {
+          "any_of": [
+            "@energy:Darkness",
+            "Janine's Secret Art"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Darkrai with 3 Energy for Abyss Eye by turn 3",
+      "by_turn": 3,
+      "target": 0.7,
+      "why": "Main setup. 3 Energy = manual attach + Janine + Toxtricity's Sinister Surge (the simulator cannot play Surge, so Toxtricity is counted as an out, which assumes its Toxel is found too - the next check covers that). Below target because only 2 Janine's Secret Art can be bought; accepted trade-off.",
+      "need": [
+        {
+          "any_of": [
+            "Mega Darkrai ex",
+            "Ultra Ball"
+          ]
+        },
+        {
+          "any_of": [
+            "@energy:Darkness"
+          ]
+        },
+        {
+          "any_of": [
+            "@energy:Darkness",
+            "Janine's Secret Art",
+            "Toxtricity"
+          ],
+          "at_least": 2
+        }
+      ]
+    },
+    {
+      "name": "Abyss Eye condition (Special Condition source) by turn 3",
+      "by_turn": 3,
+      "target": 0.85,
+      "why": "Abyss Eye does nothing unless the opponent's Active has a Special Condition: a poisoner or Dark Bell.",
+      "need": [
+        {
+          "any_of": [
+            "Dark Bell",
+            "Team Rocket's Zubat",
+            "Pecharunt",
+            "Poké Pad"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Way to bring Darkrai Active by turn 3",
+      "by_turn": 3,
+      "target": 0.7,
+      "why": "Abyss Eye needs Darkrai in the Active Spot. Pecharunt ex (or a search card that finds it) or Switch. Budew's free retreat isn't counted because it only helps when Budew is the Active.",
+      "need": [
+        {
+          "any_of": [
+            "Pecharunt ex",
+            "Ultra Ball",
+            "Switch"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Budew found on turn 1",
+      "by_turn": 1,
+      "target": 0.5,
+      "why": "Itchy Pollen matters most in the first two turns, while the opponent sets up with Items. Budew is a bonus, not part of the main plan, so the target is 50%.",
+      "need": [
+        {
+          "any_of": [
+            "Budew",
+            "Poké Pad"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Toxtricity line (Toxel + Toxtricity) by turn 3",
+      "by_turn": 3,
+      "target": 0.5,
+      "why": "Toxtricity only helps if both cards are found. It is an upgrade to the Energy plan, not the core, so the target is 50%.",
+      "need": [
+        {
+          "any_of": [
+            "Toxel",
+            "Poké Pad",
+            "Ultra Ball"
+          ]
+        },
+        {
+          "any_of": [
+            "Toxtricity",
+            "Poké Pad",
+            "Ultra Ball"
+          ]
+        }
+      ]
+    }
+  ],
+  "main_resource": {
+    "resource": "{D} Energy attached to Mega Darkrai ex (3 needed) plus a Special Condition on the opponent's Active; damage counters on our Bench for Dusk Raid",
+    "formula": "Abyss Eye = Knock Out if the target has a Special Condition and Darkrai has 3 {D}. With 2 {D}, Dusk Raid = 110, or 220 if one of our Benched Pokémon has damage counters. Darkrai can now get 1 manual attach + 1 Janine + 1 per Toxtricity (Sinister Surge): on turn 2 that is 3 Energy (manual + Janine + Surge), or 4 with two Toxtricity. Each Surge also puts 2 damage counters on the Benched target, which turns on Dusk Raid's +110 for free.",
+    "cards": [
+      {
+        "name": "Darkness Energy",
+        "effect": "+1 per turn (manual attach); 15 copies"
+      },
+      {
+        "name": "Toxtricity",
+        "effect": "+1 Energy per Toxtricity per turn from the deck, and 2 damage counters on the Bench (Dusk Raid +110)"
+      },
+      {
+        "name": "Toxel",
+        "effect": "evolves into Toxtricity; Call for Family benches 2 Basics"
+      },
+      {
+        "name": "Janine's Secret Art",
+        "effect": "+1 on Darkrai (and +1 on a second {D} Pokémon) from the deck, without spending a hand card"
+      },
+      {
+        "name": "Lillie's Determination",
+        "effect": "draws 6 (8 on the first turn) to find Energy"
+      },
+      {
+        "name": "Ultra Ball",
+        "effect": "-2 cards from hand, often spare Energy"
+      },
+      {
+        "name": "Team Rocket's Zubat",
+        "effect": "turns on the condition: Poisoned"
+      },
+      {
+        "name": "Pecharunt",
+        "effect": "turns on the condition: Poisoned"
+      },
+      {
+        "name": "Dark Bell",
+        "effect": "turns on the condition in the same turn: Confused"
+      }
+    ]
+  }
+}

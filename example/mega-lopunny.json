@@ -1,0 +1,179 @@
+{
+  "deck_name": "Mega Lopunny ex (Dusknoir)",
+  "source": {
+    "archetype_page": "https://limitlesstcg.com/decks/353",
+    "list_page": "https://limitlesstcg.com/decks/list/29606",
+    "result": "Tobias Niedziella, 8th place, Regional Frankfurt (26 Sep 2026). The best Nice result was 132nd, so this earlier Top 8 list was used instead.",
+    "format": "Standard, Temporal Forces to 30th Celebration",
+    "archetype_record": "11 Regional Top 8s (1 win)",
+    "note": "A real tournament list. card_text entries are short quotes from data/; see the full text there."
+  },
+  "requirements": "Real tournament list: Mega Lopunny ex hits for 230 with 1 Energy whenever it moved from the Bench to the Active Spot that turn, so the deck switches constantly, with Dusknoir for extra damage counters and a toolbox of Basic attackers.",
+  "cards": [
+    { "name": "Duskull", "count": 3, "id": "sv08.5-035", "role": "Basic for Dusclops and Dusknoir." },
+    { "name": "Dusclops", "count": 2, "id": "sv08.5-036", "role": "Knocks itself Out to place 5 damage counters." },
+    { "name": "Dusknoir", "count": 3, "id": "sv08.5-037", "role": "Knocks itself Out to place 13 damage counters: tops up Lopunny's damage to reach 300+ HP Pokémon or snipes the Bench." },
+    { "name": "Mega Kangaskhan ex", "count": 3, "id": "me01-104", "role": "Second attacker and draw engine while Active; any Energy powers it." },
+    { "name": "Buneary", "count": 2, "id": "me02-083", "role": "Basic for Mega Lopunny ex. Its attack switches it out, but attacks end your turn, so it does not enable Gale Thrust that turn. 2 copies; Salvatore needs one in play." },
+    { "name": "Mega Lopunny ex", "count": 2, "id": "me02-084", "role": "Main attacker. 330 HP; its 1-Energy attack does 230 if it moved from the Bench to the Active Spot this turn. A 2-Energy attack ignores effects on the Defending Pokémon." },
+    { "name": "Mew ex", "count": 2, "id": "30th-066", "role": "Retreat 0 Psychic Basic: steps aside for free so Lopunny can move in, and by its text can use a Benched Pokémon's attack. Its own attack switches out but ends the turn." },
+    { "name": "Bronzor", "count": 1, "id": "sv05-068", "role": "Basic for Bronzong." },
+    { "name": "Bronzong", "count": 1, "id": "sv05-069", "role": "Its attack stops the opponent evolving from hand next turn: disrupts Stage 2 decks." },
+    { "name": "Bloodmoon Ursaluna ex", "count": 1, "id": "sv06-141", "role": "Late-game 240-damage attacker that gets cheaper for each Prize the opponent has taken." },
+    { "name": "Meowth ex", "count": 1, "id": "me03-062", "role": "Searches a Supporter when benched." },
+    { "name": "Lillie's Clefairy ex", "count": 1, "id": "sv09-056", "role": "Makes opposing Dragon Pokémon weak to Psychic for the Psychic attackers." },
+    { "name": "Latias ex", "count": 1, "id": "sv08-076", "role": "Free retreat for every Basic: the Active Kangaskhan, Mew ex or support Basic leaves for nothing, which promotes Lopunny for Gale Thrust. Not Lopunny itself (a Stage 1). 1 copy." },
+    { "name": "Frillish", "count": 1, "id": "sv10.5w-044", "role": "1-Energy attack that stops the opponent playing Items next turn." },
+    { "name": "Lillie's Determination", "count": 3, "id": "me01-119", "role": "Main draw Supporter." },
+    { "name": "Hilda", "count": 3, "id": "sv10.5w-084", "role": "Finds an Evolution Pokémon and an Energy: Lopunny plus its Energy." },
+    { "name": "Boss's Orders", "count": 2, "id": "me01-114", "role": "Gusts a target to the Active Spot." },
+    { "name": "Salvatore", "count": 1, "id": "sv05-160", "role": "Evolves a Pokémon straight from the deck into an evolution with no Abilities, including a Pokémon put down at setup: Buneary into Mega Lopunny ex on your first turn when going second." },
+    { "name": "Ciphermaniac's Codebreaking", "count": 1, "id": "sv05-145", "role": "Puts 2 chosen cards on top for Kangaskhan's draw." },
+    { "name": "Switch", "count": 4, "id": "me01-130", "role": "Moves Lopunny from the Bench to the Active Spot, turning on its 230 damage. 4 copies because the whole plan depends on switching." },
+    { "name": "Poké Pad", "count": 4, "id": "me03-081", "role": "Searches non-Rule-Box Pokémon: Buneary, Duskull line, Bronzor line." },
+    { "name": "Ultra Ball", "count": 3, "id": "me01-131", "role": "Searches any Pokémon, including Mega Lopunny ex." },
+    { "name": "Rare Candy", "count": 3, "id": "me01-125", "role": "Duskull straight into Dusknoir." },
+    { "name": "Buddy-Buddy Poffin", "count": 2, "id": "sv05-144", "role": "Benches 2 Basics with 70 HP or less: Buneary (70), Duskull (60). Not Bronzor or Frillish (80 HP). 2 copies." },
+    { "name": "Night Stretcher", "count": 1, "id": "me02.5-196", "role": "Recovers a Pokémon or a Basic Energy." },
+    { "name": "Special Red Card", "count": 1, "id": "me04-082", "role": "Late-game hand disruption." },
+    { "name": "Jamming Tower", "count": 2, "id": "sv06-153", "role": "Stadium: all Pokémon Tools stop working, shutting off opposing damage or protection Tools." },
+    { "name": "Telepathic Psychic Energy", "count": 4, "role": "Provides Psychic; attached to a Psychic Pokémon, it benches 2 Basic Psychic Pokémon such as Duskull, Mew ex or Bronzor." },
+    { "name": "Enriching Energy", "count": 1, "role": "Provides Colorless Energy and draws 4 when attached from hand." },
+    { "name": "Psychic Energy", "count": 1, "role": "Extra Psychic for Mew ex and the Psychic attackers." }
+  ],
+  "strategy": "Get Mega Lopunny ex onto the Bench (Salvatore can do it on your first turn when going second), then switch it into the Active Spot with Switch or a pivoting attacker so its 1-Energy attack does 230. Dusclops and Dusknoir add 5 or 13 damage counters to finish 300+ HP Pokémon or Benched targets. Mega Kangaskhan ex draws while Active and is a second big attacker, and a box of Basics (Mew ex, Bloodmoon Ursaluna ex, Clefairy, Bronzong, Frillish) covers special situations. Lopunny and Kangaskhan only need Colorless Energy, so the deck plays very little Energy.",
+  "main_resource": {
+    "resource": "Turns on which Mega Lopunny ex moves from the Bench to the Active Spot before attacking",
+    "formula": "Gale Thrust: 60 + 170 = 230 for 1 Colorless, only if it moved in this turn. Without the move, Gale Thrust is 60 and Spiky Hopper is 160 for 2. Dusknoir adds 130 (360 total), Dusclops adds 50 (280), both 410. Mega Lopunny ex has 330 HP and the deck plays only 6 Energy.",
+    "cards": [
+      {
+        "name": "Switch",
+        "effect": "moves Lopunny in from the Bench; 4 copies, found by drawing or by Ciphermaniac's Codebreaking"
+      },
+      {
+        "name": "Latias ex",
+        "effect": "Basic Pokémon in play have no Retreat Cost, so an Active Basic (Kangaskhan, Mew ex) retreats for free and Lopunny is promoted"
+      },
+      {
+        "name": "Mew ex",
+        "effect": "Retreat 0, so it also steps aside for free; by its text it can use a Benched Lopunny's attack"
+      },
+      {
+        "name": "Mega Kangaskhan ex",
+        "effect": "draws 2 while Active, then retreats (free with Latias ex) to promote Lopunny"
+      },
+      {
+        "name": "Salvatore",
+        "effect": "evolves a Benched Buneary into Lopunny from the deck, even on the first turn"
+      },
+      {
+        "name": "Dusknoir",
+        "effect": "+130 damage on any Pokémon, the answer to more than 230 HP"
+      },
+      {
+        "name": "Dusclops",
+        "effect": "+50 damage on any Pokémon"
+      },
+      {
+        "name": "Ciphermaniac's Codebreaking",
+        "effect": "stacks Switch and the next card on top, for Kangaskhan or the turn's draw to pick up"
+      },
+      {
+        "name": "Buneary",
+        "effect": "0: its switching attack ends your turn, so it doesn't give Gale Thrust its bonus that turn (same for Mew ex)"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "cards": [
+        "Mega Lopunny ex",
+        "Switch",
+        "Latias ex",
+        "Mega Kangaskhan ex",
+        "Mew ex",
+        "Buneary"
+      ],
+      "card_text": [
+        "Mega Lopunny ex: \"If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 170 more damage.\"",
+        "Switch: \"Switch your Active Pokémon with 1 of your Benched Pokémon.\"",
+        "Latias ex: \"Your Basic Pokémon in play have no Retreat Cost.\"",
+        "Mega Kangaskhan ex: \"Draw 2 cards.\"",
+        "Buneary: \"Switch this Pokémon with 1 of your Benched Pokémon.\""
+      ],
+      "how_they_interact": "The whole deck exists to meet one condition. Two ways make it true on the turn you attack: the Switch card (4 copies), or retreating the Active Basic and promoting Lopunny. Latias ex makes that retreat free for every Basic, so Kangaskhan can use Run Errand (draw 2), retreat for nothing, and Lopunny comes in for Gale Thrust (230 for 1 Energy). Mew ex has Retreat 0, so it does the same with no Latias. Limit: Buneary's Run Around and Mew ex's Teleportation Burst are attacks, which end the turn, so the Lopunny they promote does not get the bonus until it leaves and comes back. Lopunny is a Stage 1, so Latias's free retreat is for the Basics around it, not for Lopunny."
+    },
+    {
+      "cards": [
+        "Dusknoir",
+        "Dusclops",
+        "Duskull",
+        "Rare Candy",
+        "Night Stretcher",
+        "Boss's Orders",
+        "Mega Lopunny ex"
+      ],
+      "card_text": [
+        "Dusknoir: \"you may put 13 damage counters on 1 of your opponent's Pokémon. If you use this Ability, this Pokémon is Knocked Out.\"",
+        "Dusclops: \"you may put 5 damage counters on 1 of your opponent's Pokémon\"",
+        "Rare Candy: \"If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1.\"",
+        "Duskull: \"Put up to 3 Duskull from your discard pile onto your Bench.\""
+      ],
+      "how_they_interact": "230 does not Knock Out a Pokémon ex with 300 or more HP. Dusknoir adds 130 on any Pokémon: 230 + 130 = 360, and Dusclops 230 + 50 = 280, so a Lopunny turn can finish a 340 HP Pokémon, or Dusknoir takes a separate Benched Knock Out in the same turn. Rare Candy puts Dusknoir out of Duskull (3 copies each of Duskull, Dusknoir, 3 Rare Candy), Boss's Orders pulls a damaged target forward, and each self-KO gives up only 1 Prize. Night Stretcher and Duskull's Come and Get You bring the line back from the discard pile."
+    },
+    {
+      "cards": [
+        "Salvatore",
+        "Buneary",
+        "Hilda",
+        "Poké Pad",
+        "Ultra Ball",
+        "Buddy-Buddy Poffin",
+        "Telepathic Psychic Energy",
+        "Meowth ex"
+      ],
+      "card_text": [
+        "Salvatore: \"Search your deck for a card that has no Abilities and evolves from 1 of your Pokémon, and put it onto that Pokémon to evolve it.\"",
+        "Hilda: \"Search your deck for an Evolution Pokémon and an Energy card\"",
+        "Buddy-Buddy Poffin: \"Search your deck for up to 2 Basic Pokémon with 70 HP or less\"",
+        "Telepathic Psychic Energy: \"search your deck for up to 2 Basic {P} Pokémon and put them onto your Bench\"",
+        "Meowth ex: \"Search your deck for a Supporter card\""
+      ],
+      "how_they_interact": "Mega Lopunny ex has no Ability, so Salvatore can evolve a Benched Buneary straight from the deck, even on your first turn going second. That needs a Buneary in play, and there are only 2, so the other outs matter: Poffin (Buneary has 70 HP), 4 Poké Pad, 3 Ultra Ball. Hilda finds Lopunny and an Energy as the other route. Telepathic Psychic Energy benches 2 Psychic Basics (Duskull, Mew ex, Bronzor, Frillish) and Meowth ex finds Salvatore or Hilda. Limit: Dusclops and Dusknoir have Abilities, so Salvatore can't fetch them; Rare Candy and Hilda do."
+    },
+    {
+      "cards": [
+        "Ciphermaniac's Codebreaking",
+        "Mega Kangaskhan ex",
+        "Enriching Energy",
+        "Lillie's Determination",
+        "Switch"
+      ],
+      "card_text": [
+        "Ciphermaniac's Codebreaking: \"Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order.\"",
+        "Enriching Energy: \"When you attach this card from your hand to a Pokémon, draw 4 cards.\"",
+        "Lillie's Determination: \"draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead.\""
+      ],
+      "how_they_interact": "Switch is 4 cards in 60, and only Ciphermaniac's Codebreaking can search one out, so finding it is the weak point. Ciphermaniac's puts Switch and the next card on top, and Mega Kangaskhan ex's Run Errand draws exactly those 2 the same turn. Enriching Energy draws 4 when it is attached (it provides Colorless, which pays for Gale Thrust), and Lillie's Determination refills a spent hand. Play the draw cards before deciding between the Switch and the retreat route."
+    },
+    {
+      "cards": [
+        "Frillish",
+        "Bronzor",
+        "Bronzong",
+        "Jamming Tower",
+        "Special Red Card",
+        "Lillie's Clefairy ex",
+        "Bloodmoon Ursaluna ex"
+      ],
+      "card_text": [
+        "Frillish: \"they can't play any Item cards from their hand\"",
+        "Bronzong: \"they can't play any Pokémon from their hand to evolve their Pokémon\"",
+        "Jamming Tower: \"Pokémon Tools attached to each Pokémon (both yours and your opponent's) have no effect.\"",
+        "Special Red Card: \"You can use this card only if your opponent has 3 or fewer Prize cards remaining.\"",
+        "Bloodmoon Ursaluna ex: \"Blood Moon used by this Pokémon costs {C} less for each Prize card your opponent has taken.\""
+      ],
+      "how_they_interact": "The toolbox covers matchups Lopunny cannot. Frillish stops Items for a turn, Bronzong stops evolving from hand (a Stage 2 deck's setup), Jamming Tower turns off the opponent's Tools, and Special Red Card resets a full hand when they are near the end. Lillie's Clefairy ex turns Dragon Pokémon weak to Psychic, and Bloodmoon Ursaluna ex hits for 240 and gets cheaper with each Prize the opponent takes (1 Energy at 4 Prizes). These Pokémon are Basics, so Latias ex's free retreat applies to them."
+    }
+  ]
+}

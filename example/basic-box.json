@@ -1,0 +1,180 @@
+{
+  "deck_name": "Basic Box (Mega Kangaskhan ex)",
+  "source": {
+    "archetype_page": "https://limitlesstcg.com/decks/339",
+    "list_page": "https://limitlesstcg.com/decks/list/29659",
+    "result": "Linked from Luc Gantner's 1st place, Regional Nice (17 Oct 2026). The list page credits it to his 77th place at Regional Frankfurt, so it may be his earlier list rather than the exact winning one.",
+    "format": "Standard, Temporal Forces to 30th Celebration",
+    "archetype_record": "24 Regional Top 8s (3 wins), 5 International Top 8s, 164 decklists",
+    "note": "A real tournament list. card_text entries are short quotes from data/; see the full text there."
+  },
+  "requirements": "Real tournament list: all-Basic toolbox led by Mega Kangaskhan ex, with backup Basic attackers for different matchups and an engine that moves Energy between them.",
+  "cards": [
+    { "name": "Mega Kangaskhan ex", "count": 4, "id": "me01-104", "role": "Main attacker: 200+ for 3 Colorless Energy, so any Energy type powers it, and it draws 2 cards a turn while Active." },
+    { "name": "Meowth ex", "count": 3, "id": "me03-062", "role": "Searches a Supporter when benched from hand (Cyrano on turn 1, Boss's Orders to finish). 3 copies because it effectively adds Supporters." },
+    { "name": "Teal Mask Ogerpon ex", "count": 2, "id": "sv06-025", "role": "Tera Pokémon: attaches a Grass Energy from hand each turn and draws a card. Turns on Area Zero Underdepths and Glass Trumpet." },
+    { "name": "Wellspring Mask Ogerpon ex", "count": 2, "id": "sv06-064", "role": "Second Tera Pokémon and Bench attacker: can trade Energy for a big hit on a Benched Pokémon." },
+    { "name": "Latias ex", "count": 2, "id": "sv08-076", "role": "Removes the Retreat Cost of all your Basics, which in an all-Basic deck means free switching every turn." },
+    { "name": "Lillie's Clefairy ex", "count": 2, "id": "sv09-056", "role": "Makes the opponent's Dragon Pokémon weak to Psychic, a direct answer to Dragon decks such as Dragapult ex; its attack grows with the number of Benched Pokémon." },
+    { "name": "Raging Bolt ex", "count": 1, "id": "sv05-123", "role": "Can refill the hand with its first attack, and its second converts discarded Basic Energy into very high damage." },
+    { "name": "Chien-Pao", "count": 1, "id": "sv08-056", "role": "Single-Prize Water attacker that also removes the opponent's Stadium when benched, protecting Area Zero." },
+    { "name": "Iron Crown ex", "count": 1, "id": "sv05-081", "role": "Hits 2 Pokémon for 50 regardless of effects, and boosts the damage of Future Pokémon such as Iron Leaves ex." },
+    { "name": "Passimian", "count": 1, "id": "sv08-111", "role": "Single-Prize attacker that does more damage for each of your Basic Pokémon in play, which is a lot in this deck." },
+    { "name": "Fezandipiti ex", "count": 1, "id": "me02.5-142", "role": "Draws 3 after a Knock Out, and can hit any opposing Pokémon for 100." },
+    { "name": "Iron Leaves ex", "count": 1, "id": "sv05-025", "role": "Comes into the Active Spot from the hand and takes Energy from your other Pokémon, so it can attack out of nowhere." },
+    { "name": "Crispin", "count": 4, "id": "sv07-133", "role": "Finds 2 Basic Energy of different types and attaches one. 4 copies because the attackers need many different types." },
+    { "name": "Cyrano", "count": 2, "id": "sv08-170", "role": "Searches up to 3 Pokémon ex at once to build the board." },
+    { "name": "Boss's Orders", "count": 2, "id": "me01-114", "role": "Brings a Benched target into the Active Spot." },
+    { "name": "Ciphermaniac's Codebreaking", "count": 1, "id": "sv05-145", "role": "Puts 2 chosen cards on top of the deck, which Kangaskhan's draw then picks up next turn." },
+    { "name": "Energy Switch", "count": 4, "id": "me01-115", "role": "Moves a Basic Energy between your Pokémon, for example Ogerpon's extra Grass onto Kangaskhan." },
+    { "name": "Ultra Ball", "count": 4, "id": "me01-131", "role": "Searches any Pokémon; the discarded cards put Energy in the discard pile for Glass Trumpet." },
+    { "name": "Night Stretcher", "count": 2, "id": "me02.5-196", "role": "Recovers a Knocked Out attacker or a Basic Energy." },
+    { "name": "Unfair Stamp", "count": 1, "id": "sv06-165", "role": "ACE SPEC comeback card after a Knock Out." },
+    { "name": "Glass Trumpet", "count": 1, "id": "sv07-135", "role": "With a Tera Pokémon in play, attaches Energy from the discard pile to 2 Benched Colorless Pokémon such as Kangaskhan." },
+    { "name": "Area Zero Underdepths", "count": 3, "id": "sv07-131", "role": "Stadium: up to 8 Benched Pokémon while you have a Tera Pokémon, so the whole box fits." },
+    { "name": "Grass Energy", "count": 6, "role": "For Teal Mask Ogerpon's Ability and Iron Leaves; also pays Colorless costs." },
+    { "name": "Psychic Energy", "count": 3, "role": "For Latias ex, Lillie's Clefairy ex and Iron Crown ex." },
+    { "name": "Lightning Energy", "count": 2, "role": "For Raging Bolt ex." },
+    { "name": "Fighting Energy", "count": 2, "role": "For Raging Bolt ex and Passimian." },
+    { "name": "Water Energy", "count": 2, "role": "For Wellspring Mask Ogerpon ex and Chien-Pao." }
+  ],
+  "strategy": "Every Pokémon is a Basic, so any attacker can come into play the turn it is drawn. Cyrano and Meowth ex build the board, Teal Mask Ogerpon ex adds Energy and draws, and Area Zero Underdepths opens room for the whole box. Mega Kangaskhan ex attacks from turn 2 and draws every turn; Latias ex makes switching free so the right attacker is always Active. Crispin, Energy Switch and Glass Trumpet move Energy around, and each backup attacker answers a specific problem: Clefairy against Dragons, Wellspring Ogerpon and Iron Crown for the Bench, Raging Bolt for raw damage, and single-Prize attackers to slow the Prize race.",
+  "main_resource": {
+    "resource": "Energy on the Active attacker by turn 2 (3 Colorless for Mega Kangaskhan ex), and Basic Pokémon in play for the Bench attackers",
+    "formula": "Rapid-Fire Combo: 200, then \"Flip a coin until you get tails\" for +50 per heads, so about 250 on average (300 HP needs 2 heads, a 1 in 4 chance). Passimian: 20 per Basic Pokémon in play, and every Pokémon here is a Basic, so Active + 8 Bench = 180. Lillie's Clefairy ex: 20 + 20 per Benched Pokémon on both sides.",
+    "cards": [
+      {
+        "name": "Crispin",
+        "effect": "+1 attached now and +1 in hand for the turn's attachment, so 2 Energy in one turn"
+      },
+      {
+        "name": "Teal Mask Ogerpon ex",
+        "effect": "+1 extra Grass attachment each turn, and draws 1"
+      },
+      {
+        "name": "Energy Switch",
+        "effect": "0 net, moves a Basic Energy to the attacker that needs it; 4 copies"
+      },
+      {
+        "name": "Glass Trumpet",
+        "effect": "+2 Energy from the discard pile onto up to 2 Benched Colorless Pokémon (Kangaskhan, Meowth ex)"
+      },
+      {
+        "name": "Iron Leaves ex",
+        "effect": "moves all Energy from your other Pokémon onto itself when benched from hand"
+      },
+      {
+        "name": "Ultra Ball",
+        "effect": "-2 cards, but the discarded Energy is ammunition for Glass Trumpet"
+      },
+      {
+        "name": "Night Stretcher",
+        "effect": "returns a Basic Energy from the discard pile to the hand"
+      },
+      {
+        "name": "Chien-Pao",
+        "effect": "Icicle Loop puts an Energy attached to it back into your hand, so the Energy isn't lost"
+      },
+      {
+        "name": "Area Zero Underdepths",
+        "effect": "raises the Bench to 8, which fuels Passimian and Clefairy"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "cards": [
+        "Mega Kangaskhan ex",
+        "Crispin",
+        "Teal Mask Ogerpon ex",
+        "Energy Switch"
+      ],
+      "card_text": [
+        "Mega Kangaskhan ex: \"Draw 2 cards.\" ... \"This attack does 50 more damage for each heads.\"",
+        "Crispin: \"Attach the other to 1 of your Pokémon.\"",
+        "Teal Mask Ogerpon ex: \"you may attach a Basic {G} Energy card from your hand to this Pokémon\"",
+        "Energy Switch: \"Move a Basic Energy from 1 of your Pokémon to another of your Pokémon.\""
+      ],
+      "how_they_interact": "The Energy engine. Rapid-Fire Combo costs 3 Colorless, so any Energy works. Turn 1: Crispin attaches 1 and keeps 1 for the manual attachment, so Kangaskhan has 2. Turn 2: a manual attachment gives 3, and Ogerpon's Grass is a spare +1 that Energy Switch can move wherever it is needed. Mega Kangaskhan ex also draws 2 each turn from the Active Spot, which is what pays for the 4 Crispin. Limit: Run Errand works only while it is Active, so Latias ex's free retreat decides how often it can draw."
+    },
+    {
+      "cards": [
+        "Teal Mask Ogerpon ex",
+        "Wellspring Mask Ogerpon ex",
+        "Area Zero Underdepths",
+        "Glass Trumpet",
+        "Chien-Pao",
+        "Ultra Ball",
+        "Night Stretcher"
+      ],
+      "card_text": [
+        "Area Zero Underdepths: \"Each player who has any Tera Pokémon in play can have up to 8 Pokémon on their Bench.\"",
+        "Glass Trumpet: \"You can use this card only if you have any Tera Pokémon in play.\" ... \"attach a Basic Energy card from your discard pile to each of them\"",
+        "Chien-Pao: \"you may discard a Stadium in play.\"",
+        "Ultra Ball: \"You can use this card only if you discard 2 other cards from your hand.\"",
+        "Night Stretcher: \"Put a Pokémon or a Basic Energy card from your discard pile into your hand.\""
+      ],
+      "how_they_interact": "Area Zero and Glass Trumpet both need a Tera Pokémon in play. The card data doesn't mark Tera, so the list's own Tera Pokémon are the 4 Ogerpon ex (2 Teal Mask + 2 Wellspring Mask); keep one on the board. Without it the Bench shrinks back to 5 and Glass Trumpet can't be played. Ultra Ball discards Energy on purpose and Glass Trumpet then puts 2 of them on Benched Colorless Pokémon, so an Ultra Ball turn is also a 2-Energy turn. Chien-Pao's Snow Sink removes an opposing Stadium so Area Zero can be played at all, since only one Stadium can be in play. Night Stretcher puts a Knocked Out Kangaskhan or a Basic Energy back in hand."
+    },
+    {
+      "cards": [
+        "Cyrano",
+        "Meowth ex",
+        "Ultra Ball",
+        "Boss's Orders",
+        "Ciphermaniac's Codebreaking"
+      ],
+      "card_text": [
+        "Cyrano: \"Search your deck for up to 3 Pokémon ex\"",
+        "Meowth ex: \"when you play this Pokémon from your hand onto your Bench\" ... \"Search your deck for a Supporter card\"",
+        "Ciphermaniac's Codebreaking: \"Search your deck for 2 cards\" ... \"then put those cards on top of it in any order.\""
+      ],
+      "how_they_interact": "19 of the 21 Pokémon are ex, so Cyrano finds up to 3 of them at once. Turn 1: bench Meowth ex from hand (its Ability finds a Supporter) and fetch Cyrano, then Cyrano brings 3 more ex, so one Supporter turn builds the whole board. The same Meowth fetches Boss's Orders on the turn it is needed. Ciphermaniac's puts 2 chosen cards on top and Mega Kangaskhan ex's Run Errand then draws exactly those 2. Limit: Meowth ex's Ability can be used only once per turn and only when it is played from hand, and every ex benched is a 2-Prize risk."
+    },
+    {
+      "cards": [
+        "Passimian",
+        "Lillie's Clefairy ex",
+        "Area Zero Underdepths",
+        "Cyrano",
+        "Meowth ex"
+      ],
+      "card_text": [
+        "Passimian: \"This attack does 20 damage for each of your Basic Pokémon in play.\"",
+        "Lillie's Clefairy ex: \"This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).\"",
+        "Area Zero Underdepths: \"up to 8 Pokémon on their Bench\""
+      ],
+      "how_they_interact": "An all-Basic deck turns the Bench into damage. With the Stadium and 8 Benched Pokémon, Passimian counts Active + 8 = 9 Basics for 180 for 2 Energy (Fighting + Colorless) and is a single-Prize attacker. Lillie's Clefairy ex does 20 + 20 for each Benched Pokémon on both sides: 8 of yours and 5 of theirs is 280. Cyrano and Meowth ex fill the Bench fast; Area Zero must stay in play, so the opponent discarding it also shrinks both attacks."
+    },
+    {
+      "cards": [
+        "Latias ex",
+        "Mega Kangaskhan ex",
+        "Iron Leaves ex",
+        "Raging Bolt ex",
+        "Wellspring Mask Ogerpon ex"
+      ],
+      "card_text": [
+        "Latias ex: \"Your Basic Pokémon in play have no Retreat Cost.\"",
+        "Iron Leaves ex: \"you may switch it with your Active Pokémon\" ... \"you may move any amount of Energy from your other Pokémon to this Pokémon\"",
+        "Raging Bolt ex: \"Discard your hand and draw 6 cards.\" ... \"This attack does 70 damage for each card you discarded in this way.\"",
+        "Wellspring Mask Ogerpon ex: \"You may shuffle 3 Energy attached to this Pokémon into your deck.\""
+      ],
+      "how_they_interact": "Every Pokémon is a Basic, so Latias ex gives all of them a free retreat and the best attacker for the matchup can be Active every turn, including Kangaskhan, which has Retreat 3. Iron Leaves ex can come down from hand, take the Active Spot and bring all the Energy from the board with it, then attack for 180 the same turn. Raging Bolt ex turns Energy into damage: discard 3 Basic Energy for 210. Wellspring Mask Ogerpon ex trades 3 Energy for 120 on a Benched target. Energy Switch and Crispin refill whichever attacker was just emptied."
+    },
+    {
+      "cards": [
+        "Iron Crown ex",
+        "Fezandipiti ex",
+        "Unfair Stamp",
+        "Night Stretcher"
+      ],
+      "card_text": [
+        "Iron Crown ex: \"This attack does 50 damage to 2 of your opponent's Pokémon.\"",
+        "Fezandipiti ex: \"if any of your Pokémon were Knocked Out during your opponent's last turn, you may draw 3 cards\"",
+        "Unfair Stamp: \"You can use this card only if any of your Pokémon were Knocked Out during your opponent's last turn.\" ... \"you draw 5 cards, and your opponent draws 2 cards\""
+      ],
+      "how_they_interact": "The comeback package turns on after an opposing Knock Out, which a deck of 2-Prize Basics suffers often. After one: Unfair Stamp leaves you 5 cards and the opponent 2, Fezandipiti ex draws 3 more, and Night Stretcher returns the Kangaskhan that was just lost. Iron Crown ex's Twin Shotels is 50 to two Pokémon with no Weakness or effects, which splits damage into two future Knock Outs. Fezandipiti ex's own attack, Cruel Arrow, is also 100 to any Pokémon."
+    }
+  ]
+}

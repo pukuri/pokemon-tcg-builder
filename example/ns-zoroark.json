@@ -1,0 +1,177 @@
+{
+  "deck_name": "N's Zoroark ex",
+  "source": {
+    "archetype_page": "https://limitlesstcg.com/decks/320",
+    "list_page": "https://limitlesstcg.com/decks/list/30533",
+    "result": "Arthur Gibelin, 25th place, Regional Nice (17 Oct 2026).",
+    "format": "Standard, Temporal Forces to 30th Celebration",
+    "archetype_record": "30 Regional Top 8s (4 wins), 7 International Top 8s",
+    "note": "A real tournament list. card_text entries are short quotes from data/; see the full text there."
+  },
+  "requirements": "Real tournament list: N's Zoroark ex draws every turn and copies the attacks of other N's Pokémon on the Bench for just 2 Darkness Energy, backed by Poison-based damage boosts.",
+  "cards": [
+    { "name": "N's Zorua", "count": 4, "id": "sv09-097", "role": "Basic for N's Zoroark ex. 4 copies so two Zoroark can evolve early." },
+    { "name": "N's Zoroark ex", "count": 4, "id": "sv09-098", "role": "Main attacker and draw engine: discard 1 card to draw 2 each turn, and attack by using any attack of a Benched N's Pokémon for only 2 Darkness Energy." },
+    { "name": "N's Zekrom", "count": 2, "id": "me02.5-155", "role": "Copy target: its 250-damage attack normally needs 4 Energy of other types, but Zoroark uses it for 2 Darkness." },
+    { "name": "Munkidori", "count": 2, "id": "sv06-095", "role": "With Darkness attached, moves up to 3 damage counters from your Pokémon onto an opponent's, including the Poison counters on a Mochi attacker. 2 copies." },
+    { "name": "N's Reshiram", "count": 1, "id": "sv09-116", "role": "Copy target: a flat 170 hit, or damage that scales with counters on the attacker." },
+    { "name": "N's Purrloin", "count": 1, "id": "sv09-096", "role": "Copy target: hand disruption that sends a chosen card from the opponent's hand to the bottom of their deck." },
+    { "name": "Yveltal", "count": 1, "id": "me01-088", "role": "Single-Prize Darkness attacker; can also trap the opponent's Active so it can't retreat." },
+    { "name": "Pecharunt ex", "count": 1, "id": "sv06.5-039", "role": "Ability switches a Benched Darkness Pokémon into the Active Spot and Poisons it, which turns on Binding Mochi's bonus damage." },
+    { "name": "Budew", "count": 1, "id": "me02.5-016", "role": "Free attack that stops the opponent playing Items next turn." },
+    { "name": "Meowth ex", "count": 1, "id": "me03-062", "role": "Searches a Supporter when benched." },
+    { "name": "Lillie's Determination", "count": 4, "id": "me01-119", "role": "Main draw Supporter: 8 cards on the first turn, 6 later. Played after Trade and attachments, because it shuffles the hand away. 4 copies." },
+    { "name": "Boss's Orders", "count": 4, "id": "me01-114", "role": "Gusts a chosen target. 4 copies because this deck wins by picking off key Pokémon one at a time." },
+    { "name": "Cyrano", "count": 2, "id": "sv08-170", "role": "Searches up to 3 Pokémon ex, such as Zoroark ex, Pecharunt ex and Meowth ex." },
+    { "name": "Black Belt's Training", "count": 1, "id": "sv09-143", "role": "For one turn, attacks do 40 more damage to an opposing Pokémon ex: reaches big Knock Outs." },
+    { "name": "Judge", "count": 1, "id": "me03-076", "role": "Both players shuffle away their hands and draw 4." },
+    { "name": "Janine's Secret Art", "count": 1, "id": "sv08.5-112", "role": "Attaches Darkness Energy from the deck to up to 2 Darkness Pokémon in one Supporter." },
+    { "name": "Buddy-Buddy Poffin", "count": 4, "id": "sv05-144", "role": "Benches 2 Basics with 70 HP or less: Zorua, Purrloin, Budew. Not Munkidori (110 HP). 4 copies." },
+    { "name": "Ultra Ball", "count": 3, "id": "me01-131", "role": "Searches any Pokémon, including Zoroark ex." },
+    { "name": "N's PP Up", "count": 3, "id": "sv09-153", "role": "Attaches a Basic Energy from the discard pile to a Benched N's Pokémon, powering the next Zoroark. Zoroark's own discards feed it." },
+    { "name": "Poké Pad", "count": 2, "id": "me03-081", "role": "Searches a Pokémon without a Rule Box." },
+    { "name": "Night Stretcher", "count": 2, "id": "me02.5-196", "role": "Recovers a Pokémon or a Basic Energy." },
+    { "name": "Special Red Card", "count": 1, "id": "me04-082", "role": "Late-game hand disruption when the opponent is close to winning." },
+    { "name": "Secret Box", "count": 1, "id": "sv06-163", "role": "ACE SPEC: for a 3-card discard, finds an Item, a Tool, a Supporter and a Stadium at once." },
+    { "name": "Binding Mochi", "count": 2, "id": "sv08.5-095", "role": "Tool: a Poisoned Pokémon wearing it does 40 more damage to the opponent's Active." },
+    { "name": "N's Castle", "count": 2, "id": "sv09-152", "role": "Stadium: N's Pokémon have no Retreat Cost, so Zoroark and the copy targets switch freely." },
+    { "name": "Team Rocket's Watchtower", "count": 2, "id": "sv10-180", "role": "Stadium: Colorless Pokémon lose their Abilities, shutting off opposing engines such as Kangaskhan or Meowth ex." },
+    { "name": "Darkness Energy", "count": 7, "role": "Pays Night Joker and turns on Munkidori." }
+  ],
+  "strategy": "Set up two or more N's Zoroark ex and draw with Trade every turn. Night Joker borrows the best attack on the Bench for 2 Darkness Energy: N's Zekrom for 250, N's Reshiram for 170, or N's Purrloin to disrupt the hand. Pecharunt ex can poison your own Darkness attacker to switch on Binding Mochi's extra damage, and Black Belt's Training adds more for a key Knock Out. N's Castle keeps everything mobile, N's PP Up re-powers the next attacker from the discard pile, and Watchtower shuts down Colorless Abilities on the other side.",
+  "main_resource": {
+    "resource": "Damage of the attack N's Zoroark ex copies with Night Joker for 2 Darkness Energy (only 7 Darkness Energy in the deck)",
+    "formula": "Night Joker copies a Benched N's Pokémon's attack: Zekrom 250, Reshiram 170, Zekrom's Shred 70 (ignores effects on the Defending Pokémon). Binding Mochi adds 40 while the attacker is Poisoned, Black Belt's Training adds 40 against a Pokémon ex: 250 + 40 + 40 = 330, the same 2 Energy. Zoroark ex has 280 HP.",
+    "cards": [
+      {
+        "name": "N's Zekrom",
+        "effect": "250 (Rampaging Thunder) or 70 (Shred) for Zoroark's 2 Energy"
+      },
+      {
+        "name": "N's Reshiram",
+        "effect": "170 (Virtuous Flame) for Zoroark's 2 Energy"
+      },
+      {
+        "name": "Binding Mochi",
+        "effect": "+40 while the attacker is Poisoned (2 copies)"
+      },
+      {
+        "name": "Pecharunt ex",
+        "effect": "poisons your own Active Darkness Pokémon when it switches it in, turning Mochi on"
+      },
+      {
+        "name": "Janine's Secret Art",
+        "effect": "+2 Darkness Energy from the deck onto 2 Darkness Pokémon, and Poisons the Active if it got one"
+      },
+      {
+        "name": "Black Belt's Training",
+        "effect": "+40 against a Pokémon ex for the turn (1 copy)"
+      },
+      {
+        "name": "N's PP Up",
+        "effect": "+1 Basic Energy from the discard pile onto a Benched N's Pokémon (3 copies)"
+      },
+      {
+        "name": "N's Zoroark ex",
+        "effect": "Trade: discard 1, draw 2 (+1 card net); the discard can be a Darkness Energy for PP Up"
+      },
+      {
+        "name": "Night Stretcher",
+        "effect": "returns a Basic Energy or a Pokémon (2 copies)"
+      },
+      {
+        "name": "Munkidori",
+        "effect": "moves up to 3 damage counters from your Poisoned attacker onto the opponent"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "cards": [
+        "N's Zoroark ex",
+        "N's Zekrom",
+        "N's Reshiram",
+        "N's Purrloin",
+        "N's Zorua"
+      ],
+      "card_text": [
+        "N's Zoroark ex: \"Choose 1 of your Benched N's Pokémon's attacks and use it as this attack.\"",
+        "N's Zekrom: \"During your next turn, this Pokémon can't use attacks.\"",
+        "N's Reshiram: \"This attack does 20 damage for each damage counter on this Pokémon.\"",
+        "N's Purrloin: \"Your opponent reveals their hand, and you choose a card you find there and put it on the bottom of their deck.\""
+      ],
+      "how_they_interact": "The copy targets never need their own Energy. They sit on the Bench as a menu: Zekrom 250 (or Shred 70 into an effect), Reshiram's flat Virtuous Flame 170, Purrloin 30 plus a card of the opponent's hand to the bottom of their deck. Every one costs Zoroark only 2 Darkness. Limit: by the card text, Rampaging Thunder's 'this Pokémon' is the Zoroark that copied it, so that Zoroark can't attack next turn: keep a second Zoroark with Energy ready. Powerful Rage counts counters on the copier (Zoroark), so Virtuous Flame is the dependable Reshiram attack. Targets have to stay on the Bench, so they must also survive there."
+    },
+    {
+      "cards": [
+        "Pecharunt ex",
+        "Janine's Secret Art",
+        "Binding Mochi",
+        "N's Zoroark ex",
+        "Black Belt's Training",
+        "Munkidori"
+      ],
+      "card_text": [
+        "Binding Mochi: \"Attacks used by the Poisoned Pokémon this card is attached to do 40 more damage to your opponent's Active Pokémon\"",
+        "Pecharunt ex: \"you may switch 1 of your Benched {D} Pokémon, except any Pecharunt ex, with your Active Pokémon. If you do, the new Active Pokémon is now Poisoned.\"",
+        "Janine's Secret Art: \"If you attached Energy to your Active Pokémon in this way, it is now Poisoned.\"",
+        "Black Belt's Training: \"attacks used by your Pokémon do 40 more damage to your opponent's Active Pokémon ex\"",
+        "Munkidori: \"you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent's Pokémon\""
+      ],
+      "how_they_interact": "Poisoning your own attacker is the price of Binding Mochi's +40. There are two ways to pay it: Pecharunt ex's Subjugating Chains (switch in a Benched Darkness Pokémon, which becomes Poisoned) and Janine's Secret Art, which also attaches Darkness Energy to up to 2 Darkness Pokémon and Poisons the Active if it got one. A Mochi Zoroark copying Zekrom does 250 + 40 = 290, and 330 with Black Belt's Training against a Pokémon ex. The cost is small: Poison adds damage counters at each Checkup, and Munkidori (with Darkness attached) moves up to 3 counters from the poisoned Zoroark onto the opponent. Limit: Mochi works only while its holder stays Poisoned and is the attacker, and Pecharunt ex is a 2-Prize Pokémon."
+    },
+    {
+      "cards": [
+        "N's Zoroark ex",
+        "N's PP Up",
+        "Night Stretcher",
+        "Janine's Secret Art",
+        "Darkness Energy",
+        "Lillie's Determination",
+        "Judge"
+      ],
+      "card_text": [
+        "N's Zoroark ex: \"You must discard a card from your hand in order to use this Ability.\" ... \"you may draw 2 cards\"",
+        "N's PP Up: \"Attach a Basic Energy card from your discard pile to 1 of your Benched N's Pokémon.\"",
+        "Night Stretcher: \"Put a Pokémon or a Basic Energy card from your discard pile into your hand.\""
+      ],
+      "how_they_interact": "With only 7 Darkness Energy, every one has to be used more than once. Trade (4 Zoroark, each its own use) discards a card to draw 2, and if the discard is a Darkness Energy, N's PP Up (3 copies) puts it on a Benched Zoroark for free. Night Stretcher returns an Energy from the pile, and Janine's Secret Art goes to the deck for 2 more. That way one Darkness Energy can power a Knocked Out Zoroark's replacement. Lillie's Determination and Judge shuffle the hand away, so do the Trade discards and attachments before them."
+    },
+    {
+      "cards": [
+        "N's Zorua",
+        "Buddy-Buddy Poffin",
+        "Poké Pad",
+        "Ultra Ball",
+        "Cyrano",
+        "Meowth ex",
+        "Secret Box"
+      ],
+      "card_text": [
+        "Buddy-Buddy Poffin: \"Search your deck for up to 2 Basic Pokémon with 70 HP or less\"",
+        "Cyrano: \"Search your deck for up to 3 Pokémon ex\"",
+        "Meowth ex: \"Search your deck for a Supporter card\"",
+        "Secret Box: \"an Item card, a Pokémon Tool card, a Supporter card, and a Stadium card\""
+      ],
+      "how_they_interact": "Zoroark needs a Zorua in play and a copy target on the Bench. Poffin benches Zorua (70 HP), Purrloin (70) and Budew (30) but not Munkidori (110) or Zekrom and Reshiram (130), which Poké Pad (no Rule Box) or Ultra Ball find. Cyrano takes up to 3 of the deck's 6 Pokémon ex at once (Zoroark ex, Pecharunt ex, Meowth ex), and Meowth ex finds the Supporter that follows. Secret Box (discard 3) finds an Item, a Tool (Binding Mochi), a Supporter and a Stadium in one go. Watchtower would turn off Meowth ex's Ability if Meowth is already in play, so bench it first."
+    },
+    {
+      "cards": [
+        "N's Castle",
+        "Team Rocket's Watchtower",
+        "Boss's Orders",
+        "Yveltal",
+        "Budew",
+        "Special Red Card"
+      ],
+      "card_text": [
+        "N's Castle: \"N's Pokémon in play (both yours and your opponent's) have no Retreat Cost.\"",
+        "Team Rocket's Watchtower: \"{C} Pokémon in play (both yours and your opponent's) have no Abilities.\"",
+        "Yveltal: \"During your opponent's next turn, the Defending Pokémon can't retreat.\"",
+        "Budew: \"they can't play any Item cards from their hand\"",
+        "Special Red Card: \"You can use this card only if your opponent has 3 or fewer Prize cards remaining.\""
+      ],
+      "how_they_interact": "Castle gives your Zoroark (Retreat 2) and the Zekrom and Reshiram a free retreat, so the damaged Zoroark steps aside. Watchtower is the answer to Colorless Ability engines and replaces any Stadium. Boss's Orders pulls the target in, then Yveltal's Clutch keeps it Active, and Budew's Item lock and Special Red Card take away the opponent's options at the start and end of the game."
+    }
+  ]
+}

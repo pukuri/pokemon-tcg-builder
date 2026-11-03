@@ -1,0 +1,172 @@
+{
+  "deck_name": "Crustle (Mega Kangaskhan ex)",
+  "source": {
+    "archetype_page": "https://limitlesstcg.com/decks/341",
+    "list_page": "https://limitlesstcg.com/decks/list/28756",
+    "result": "Rune Heiremans, 5th place, World Championships 2026 (28 Aug 2026); the same 60 cards also took 6th (Satoshi Matsui). The best Nice result was 95th, so this Worlds list was used instead. It predates 30th Celebration but uses only cards that are still legal.",
+    "format": "Standard, Temporal Forces to 30th Celebration",
+    "archetype_record": "24 Regional Top 8s (2 wins), 4 International Top 8s",
+    "note": "A real tournament list. card_text entries are short quotes from data/; see the full text there."
+  },
+  "requirements": "Real tournament list: a wall deck. Crustle takes no damage from Pokémon ex attacks, so ex-based decks can't Knock it Out; the rest of the deck heals, disrupts the opponent's hand and Energy, and wins slowly.",
+  "cards": [
+    { "name": "Mega Kangaskhan ex", "count": 4, "id": "me01-104", "role": "Draw engine while Active and the main answer to single-Prize Pokémon that Crustle can't wall. Any Energy powers its attack." },
+    { "name": "Dwebble", "count": 3, "id": "sv10-011", "role": "Basic for Crustle; its 1-Energy attack searches the deck for Crustle and evolves into it right away." },
+    { "name": "Crustle", "count": 3, "id": "sv10-012", "role": "The wall: its Ability prevents all damage from attacks by Pokémon ex. Its attack ignores effects on the Defending Pokémon." },
+    { "name": "Team Rocket's Petrel", "count": 4, "id": "sv10-176", "role": "Searches any Trainer card: Eri, Boss's Orders, a Stadium or a heal, whatever the turn needs. Also triggers Team Rocket's Factory." },
+    { "name": "Lillie's Determination", "count": 4, "id": "me01-119", "role": "Main draw Supporter." },
+    { "name": "Boss's Orders", "count": 4, "id": "me01-114", "role": "Picks off support Pokémon and single-Prize threats. 4 copies because the deck wins by choosing which Pokémon to Knock Out." },
+    { "name": "Eri", "count": 3, "id": "sv05-146", "role": "Looks at the opponent's hand and discards up to 2 Items: removes their switching, search or Tool answers to Crustle." },
+    { "name": "Hilda", "count": 2, "id": "sv10.5w-084", "role": "Finds an Evolution Pokémon and an Energy: Crustle plus its Energy in one card." },
+    { "name": "Xerosic's Machinations", "count": 1, "id": "sv06.5-064", "role": "The opponent discards down to 3 cards in hand." },
+    { "name": "Pokémon Center Lady", "count": 1, "id": "me01-123", "role": "Heals 60 and removes Special Conditions." },
+    { "name": "Jumbo Ice Cream", "count": 4, "id": "me02-091", "role": "Heals 80 from an Active Pokémon with 3+ Energy attached, keeping Kangaskhan or Crustle alive against single-Prize attackers." },
+    { "name": "Pokégear 3.0", "count": 3, "id": "sv10.5b-084", "role": "Finds a Supporter from the top 7 cards. Limitless lists an older printing (sv01-186, G mark); this is the legal printing in your data." },
+    { "name": "Buddy-Buddy Poffin", "count": 2, "id": "sv05-144", "role": "Benches 2 Dwebble on turn 1." },
+    { "name": "Special Red Card", "count": 1, "id": "me04-082", "role": "Late-game hand disruption." },
+    { "name": "Switch", "count": 1, "id": "me01-130", "role": "Moves a damaged or stuck Pokémon to the Bench." },
+    { "name": "Ultra Ball", "count": 1, "id": "me01-131", "role": "Searches any Pokémon." },
+    { "name": "Enhanced Hammer", "count": 1, "id": "sv06-148", "role": "Discards an opponent's Special Energy." },
+    { "name": "Handheld Fan", "count": 1, "id": "sv06-150", "role": "Tool: when the Active holder is damaged, an Energy moves off the attacker onto the opponent's Bench, slowing their next attack." },
+    { "name": "Hero's Cape", "count": 1, "id": "sv05-152", "role": "ACE SPEC Tool: +100 HP." },
+    { "name": "Lumiose City", "count": 1, "id": "me03-077", "role": "Stadium: once a turn either player may bench a Basic from their deck, but that turn ends. Benches Dwebble when there's nothing to attack with, and the opponent can use it too. 1 copy." },
+    { "name": "Festival Grounds", "count": 1, "id": "sv06-149", "role": "Stadium: Pokémon with Energy attached are immune to Special Conditions, protecting the wall from poison and confusion." },
+    { "name": "Team Rocket's Factory", "count": 1, "id": "sv10-173", "role": "Stadium: draw 2 after playing a Team Rocket Supporter, which turns every Petrel into search plus draw." },
+    { "name": "Growing Grass Energy", "count": 4, "role": "Provides Grass and gives the Grass Pokémon it is attached to +20 HP." },
+    { "name": "Mist Energy", "count": 4, "role": "Blocks the effects of opposing attacks on the Pokémon it is attached to, so Crustle can't be pushed aside or disabled." },
+    { "name": "Spiky Energy", "count": 4, "role": "Provides Colorless and punishes an attacker that damages the Active Pokémon it is attached to." },
+    { "name": "Grass Energy", "count": 1, "role": "Basic Grass Energy for Crustle and for Hilda to find." }
+  ],
+  "strategy": "Get Crustle into play fast (Dwebble can evolve itself from the deck) and make the opponent attack it. Decks that rely on Pokémon ex can't damage it at all, so they run out of attackers while Crustle chips away. Mega Kangaskhan ex draws cards and handles single-Prize Pokémon, healed by Jumbo Ice Cream. Eri, Xerosic's Machinations and Special Red Card strip the opponent's hand, Enhanced Hammer and Handheld Fan slow their Energy, Boss's Orders picks the targets, and Petrel finds whichever piece is needed.",
+  "main_resource": {
+    "resource": "How many hits from Pokémon that are not ex Crustle survives (ex attacks do 0 damage to it)",
+    "formula": "Crustle has 150 HP: 170 with Growing Grass Energy, 270 with Hero's Cape too. A 120-damage non-ex attacker needs 2 hits on 170 HP and 3 hits on 270 HP. With a Jumbo Ice Cream (-80) between every hit, that becomes 3 and 5 hits.",
+    "cards": [
+      {
+        "name": "Crustle",
+        "effect": "0 damage from Pokémon ex attacks"
+      },
+      {
+        "name": "Growing Grass Energy",
+        "effect": "+20 HP on a Grass Pokémon (4 copies)"
+      },
+      {
+        "name": "Hero's Cape",
+        "effect": "+100 HP (ACE SPEC)"
+      },
+      {
+        "name": "Jumbo Ice Cream",
+        "effect": "-80 damage a turn; Crustle's attack costs exactly the 3 Energy it needs (4 copies)"
+      },
+      {
+        "name": "Pokémon Center Lady",
+        "effect": "-60 damage and clears Special Conditions"
+      },
+      {
+        "name": "Spiky Energy",
+        "effect": "puts 2 damage counters (20) on every attacker that damages the Active Pokémon"
+      },
+      {
+        "name": "Handheld Fan",
+        "effect": "moves an Energy off the attacker, so its next attack is delayed"
+      },
+      {
+        "name": "Mist Energy",
+        "effect": "blocks attack effects on its Pokémon (damage is not an effect)"
+      },
+      {
+        "name": "Switch",
+        "effect": "moves a damaged Crustle out; its Retreat Cost is 3"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "cards": [
+        "Crustle",
+        "Growing Grass Energy",
+        "Hero's Cape",
+        "Mist Energy",
+        "Festival Grounds"
+      ],
+      "card_text": [
+        "Crustle: \"Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex.\"",
+        "Growing Grass Energy: \"The {G} Pokémon this card is attached to gets +20 HP.\"",
+        "Hero's Cape: \"The Pokémon this card is attached to gets +100 HP.\"",
+        "Mist Energy: \"Prevent all effects of attacks used by your opponent's Pokémon done to the Pokémon this card is attached to.\" ... \"Damage is not an effect.\"",
+        "Festival Grounds: \"can't be affected by any Special Conditions\""
+      ],
+      "how_they_interact": "Crustle is a wall only against Pokémon ex. Mist Energy and Festival Grounds close the other ways through it: effects such as confusion or being stopped from retreating. Together the Energy and Cape give it 270 HP. Limits: the wall does nothing against attackers that are not ex, Mist Energy doesn't stop damage, and Festival Grounds protects the opponent's Pokémon that have Energy too."
+    },
+    {
+      "cards": [
+        "Crustle",
+        "Jumbo Ice Cream",
+        "Pokémon Center Lady",
+        "Spiky Energy",
+        "Handheld Fan",
+        "Switch"
+      ],
+      "card_text": [
+        "Crustle: \"Superb Scissors\"",
+        "Jumbo Ice Cream: \"Heal 80 damage from your Active Pokémon that has 3 or more Energy attached.\"",
+        "Pokémon Center Lady: \"Heal 60 damage from 1 of your Pokémon, and it recovers from all Special Conditions.\"",
+        "Spiky Energy: \"put 2 damage counters on the Attacking Pokémon\"",
+        "Handheld Fan: \"move an Energy from the Attacking Pokémon to 1 of your opponent's Benched Pokémon\""
+      ],
+      "how_they_interact": "The answer to attackers that are not ex. Crustle's attack costs Grass + 2 Colorless, which is exactly the 3 Energy Jumbo Ice Cream asks for, so the Crustle that attacks every turn also qualifies for 4 Ice Creams. Each hit on it also returns 20 with Spiky Energy and can pull an Energy off the attacker with Handheld Fan. Against a 120-damage attacker, a Crustle with Hero's Cape and an Ice Cream every turn takes 5 hits, and the attacker loses 20 HP and an Energy along the way. Switch is the only free way out when Crustle (Retreat 3) has to leave."
+    },
+    {
+      "cards": [
+        "Dwebble",
+        "Crustle",
+        "Hilda",
+        "Buddy-Buddy Poffin",
+        "Ultra Ball",
+        "Lumiose City"
+      ],
+      "card_text": [
+        "Dwebble: \"Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it.\"",
+        "Hilda: \"Search your deck for an Evolution Pokémon and an Energy card\"",
+        "Buddy-Buddy Poffin: \"Search your deck for up to 2 Basic Pokémon with 70 HP or less\"",
+        "Lumiose City: \"that player may search their deck for a Basic Pokémon and put it onto their Bench\" ... \"their turn ends\""
+      ],
+      "how_they_interact": "Three independent ways to have Crustle in play by turn 2-3. Poffin benches 2 Dwebble (70 HP fits) and Dwebble's attack puts Crustle on itself straight from the deck for 1 Energy, no Stage 1 card in hand needed. Hilda adds Crustle and an Energy in one card, and Ultra Ball finds either. Lumiose City benches a Basic from the deck once a turn but ends your turn, so use it only when you have no attack to make; the opponent can use it too. Limit: Dwebble must be Active with an Energy to use Ascension."
+    },
+    {
+      "cards": [
+        "Team Rocket's Petrel",
+        "Team Rocket's Factory",
+        "Pokégear 3.0",
+        "Lillie's Determination",
+        "Mega Kangaskhan ex",
+        "Boss's Orders"
+      ],
+      "card_text": [
+        "Team Rocket's Petrel: \"Search your deck for a Trainer card\"",
+        "Team Rocket's Factory: \"if they played a Supporter card that has \"Team Rocket\" in its name from their hand this turn, they may draw 2 cards\"",
+        "Pokégear 3.0: \"Look at the top 7 cards of your deck. You may reveal a Supporter card you find there\"",
+        "Lillie's Determination: \"draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead.\"",
+        "Mega Kangaskhan ex: \"Draw 2 cards.\""
+      ],
+      "how_they_interact": "19 Supporters and only 1 can be played a turn, so the search cards decide which one. Petrel finds whichever Trainer the board needs (Eri, Boss's Orders, Jumbo Ice Cream, a Stadium), and with Factory in play it also draws 2. Pokégear 3.0 reaches the Supporter from the top 7. Lillie's draws 8 only at 6 Prizes, so play it early. Mega Kangaskhan ex draws 2 more while Active, and Boss's Orders gives it the single-Prize target to Knock Out; it is a 2-Prize Pokémon outside Crustle's wall."
+    },
+    {
+      "cards": [
+        "Eri",
+        "Xerosic's Machinations",
+        "Special Red Card",
+        "Enhanced Hammer",
+        "Boss's Orders",
+        "Crustle"
+      ],
+      "card_text": [
+        "Eri: \"Your opponent reveals their hand, and you discard up to 2 Item cards you find there.\"",
+        "Xerosic's Machinations: \"Your opponent discards cards from their hand until they have 3 cards in their hand.\"",
+        "Special Red Card: \"You can use this card only if your opponent has 3 or fewer Prize cards remaining.\" ... \"Your opponent shuffles their hand and puts it on the bottom of their deck.\"",
+        "Enhanced Hammer: \"Discard a Special Energy from 1 of your opponent's Pokémon.\""
+      ],
+      "how_they_interact": "A wall wins by making the opponent run out of answers while Crustle chips with 120 a turn. Eri strips up to 2 Items (their switching and search) from the revealed hand, Xerosic's cuts it to 3, Special Red Card resets it at 3 or fewer Prizes (an Item, so it can follow a Supporter in the same turn), and Enhanced Hammer takes a Special Energy off. Boss's Orders then pulls out the support Pokémon that is not ex. Only one of Eri or Xerosic's per turn, so choose by the hand size Eri reveals or Petrel finds."
+    }
+  ]
+}

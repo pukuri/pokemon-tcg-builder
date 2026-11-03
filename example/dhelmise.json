@@ -1,0 +1,164 @@
+{
+  "deck_name": "Dhelmise (Hide 'n' Sneak)",
+  "source": {
+    "archetype_page": "https://limitlesstcg.com/decks/374",
+    "list_page": "https://limitlesstcg.com/decks/list/30517",
+    "result": "Maxime Launay, 2nd place, Regional Nice (17 Oct 2026).",
+    "format": "Standard, Temporal Forces to 30th Celebration",
+    "archetype_record": "6 Regional Top 8s",
+    "note": "A real tournament list. card_text entries are short quotes from data/; see the full text there."
+  },
+  "requirements": "Real tournament list: fill the discard pile with Pokémon that have the Hide 'n' Sneak Ability; Dhelmise, Sinistcha and Spiritomb get far stronger as that count grows.",
+  "cards": [
+    { "name": "Shuppet", "count": 4, "id": "me05-033", "role": "Hide 'n' Sneak Pokémon (immune to the effects of opposing attacks and Abilities) and Basic for Banette; mostly discard fuel." },
+    { "name": "Banette", "count": 4, "id": "me05-034", "role": "Hide 'n' Sneak Pokémon whose 1-Energy attack does 80 and searches any card." },
+    { "name": "Poltchageist", "count": 4, "id": "me05-005", "role": "Hide 'n' Sneak Basic for Sinistcha; its 1-Energy attack places 1 damage counter." },
+    { "name": "Sinistcha", "count": 4, "id": "me05-006", "role": "With 6+ Hide 'n' Sneak Pokémon in the discard pile, its 1-Energy attack places 4 damage counters on every opposing Pokémon." },
+    { "name": "Dhelmise", "count": 4, "id": "me05-039", "role": "Main attacker: 140 HP Basic whose 1-Energy attack does 170 once 4+ Hide 'n' Sneak Pokémon are in the discard pile." },
+    { "name": "Lillie's Clefairy ex", "count": 2, "id": "sv09-056", "role": "Makes opposing Dragon Pokémon weak to Psychic, so Psychic Dhelmise hits them for double." },
+    { "name": "Spiritomb", "count": 1, "id": "me05-035", "role": "Late-game finisher: with 13+ Hide 'n' Sneak Pokémon discarded, quadruples the damage counters on 2 opposing Pokémon, combining with Sinistcha's spread." },
+    { "name": "Latias ex", "count": 1, "id": "sv08-076", "role": "Free retreat for Basics: Dhelmise, Spiritomb and the Basic support Pokémon." },
+    { "name": "Bloodmoon Ursaluna ex", "count": 1, "id": "sv06-141", "role": "Late-game heavy hitter whose 240-damage attack gets cheaper for each Prize the opponent has taken." },
+    { "name": "Explorer's Guidance", "count": 4, "id": "sv05-147", "role": "Looks at the top 6, keeps 2 and discards the rest: digs and fills the discard pile at the same time." },
+    { "name": "Lillie's Determination", "count": 3, "id": "me01-119", "role": "Draw Supporter: shuffles the hand away and draws 6, or 8 at 6 Prizes. Play it after the discards, not before. 3 copies." },
+    { "name": "Gwynn", "count": 3, "id": "me05-078", "role": "Discards up to 2 non-Rule-Box Pokémon from hand and draws 3 for each: fuel plus 6 cards." },
+    { "name": "Boss's Orders", "count": 3, "id": "me01-114", "role": "Pulls a damaged Benched Pokémon forward to finish Sinistcha's spread." },
+    { "name": "Naveen", "count": 2, "id": "me03-079", "role": "Discard any cards, then draw up to 5: another way to throw Pokémon in the discard pile." },
+    { "name": "Ultra Ball", "count": 4, "id": "me01-131", "role": "Searches any Pokémon; its 2-card discard cost is fuel here, not a cost." },
+    { "name": "Poké Pad", "count": 3, "id": "me03-081", "role": "Searches any non-Rule-Box Pokémon." },
+    { "name": "Night Stretcher", "count": 3, "id": "me02.5-196", "role": "Gets back Dhelmise or a Basic Energy. Never a Hide 'n' Sneak Pokémon unless it is the last piece, because that lowers the discard count. 3 copies." },
+    { "name": "Prism Tower", "count": 2, "id": "me04-080", "role": "Stadium: once a turn, discard 2 cards to draw 1, another free discard outlet." },
+    { "name": "Telepathic Psychic Energy", "count": 4, "role": "Provides Psychic; attached from hand to a Psychic Pokémon, it benches 2 Basic Psychic Pokémon such as Dhelmise or Shuppet." },
+    { "name": "Psychic Energy", "count": 3, "role": "Pays Dhelmise's and Banette's 1-Energy attacks." },
+    { "name": "Legacy Energy", "count": 1, "role": "Provides any type, and can make the opponent take one fewer Prize for a Knock Out." }
+  ],
+  "strategy": "Discard Hide 'n' Sneak Pokémon as fast as possible with Explorer's Guidance, Gwynn, Naveen, Ultra Ball and Prism Tower. With 4 in the discard pile, Dhelmise does 170 for 1 Energy; with 6, Sinistcha places 4 counters on every opposing Pokémon for 1 Energy; with 13, Spiritomb quadruples counters on two Pokémon for a huge late-game swing. Almost every Pokémon gives up 1 Prize, and Banette's search keeps the engine going.",
+  "main_resource": {
+    "resource": "Pokémon with the Hide 'n' Sneak Ability in your discard pile (16 in the deck: 4 each of Shuppet, Banette, Poltchageist, Sinistcha)",
+    "formula": "4 in the pile: Vengeful Anchor 30 + 140 = 170 for 1 Energy. 6: Matcha Spin places 4 counters on every opposing Pokémon. 13: Spiritomb quadruples the counters on 2 Pokémon (4 counters become 16 = 160 each). Dhelmise and Spiritomb don't have the Ability, so they never count.",
+    "cards": [
+      {
+        "name": "Explorer's Guidance",
+        "effect": "discards up to 4 (the 6 looked at, minus the 2 kept), at random; 4 copies"
+      },
+      {
+        "name": "Gwynn",
+        "effect": "discards up to 2 Pokémon without a Rule Box from hand and draws 6: +2 in the pile, +3 cards net"
+      },
+      {
+        "name": "Ultra Ball",
+        "effect": "+2 in the pile (its cost), and finds the Pokémon you need; 4 copies"
+      },
+      {
+        "name": "Naveen",
+        "effect": "discards any number from hand, then draws up to 5"
+      },
+      {
+        "name": "Prism Tower",
+        "effect": "+2 in the pile each turn for 1 card, once per turn"
+      },
+      {
+        "name": "Banette",
+        "effect": "Puppet Pull searches any card for 1 Energy; Banette is itself a counted Pokémon when it is Knocked Out"
+      },
+      {
+        "name": "Night Stretcher",
+        "effect": "-1 if it takes a Hide 'n' Sneak Pokémon out; take Dhelmise or a Basic Energy instead"
+      },
+      {
+        "name": "Poltchageist",
+        "effect": "Furtive Drop places 1 counter, which Spiritomb quadruples"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "cards": [
+        "Dhelmise",
+        "Sinistcha",
+        "Spiritomb",
+        "Shuppet",
+        "Banette",
+        "Poltchageist"
+      ],
+      "card_text": [
+        "Dhelmise: \"If you have 4 or more Pokémon that have the Hide 'n' Sneak Ability in your discard pile, this attack does 140 more damage.\"",
+        "Sinistcha: \"If you have 6 or more Pokémon that have the Hide 'n' Sneak Ability in your discard pile, place 4 damage counters on each of your opponent's Pokémon.\"",
+        "Spiritomb: \"If you have 13 or more Pokémon that have the Hide 'n' Sneak Ability in your discard pile, choose 2 of your opponent's Pokémon and quadruple the number of damage counters on each of them.\"",
+        "Shuppet: \"Prevent all effects of your opponent's Pokémon's attacks and Abilities done to this Pokémon. (Damage is not an effect.)\""
+      ],
+      "how_they_interact": "Every threshold counts the same 16 cards. Four in the pile make Dhelmise a 170-damage attacker for 1 Energy. Six turn Sinistcha into a 40-damage hit on every opposing Pokémon. Thirteen is most of the deck (13 of 16), so Spiritomb is a very late finisher: 4 counters become 16 on two Pokémon. Each Hide 'n' Sneak Pokémon is also protected from the effects of opposing attacks and Abilities while it sits in play, but not from damage. Limit: Dhelmise and Spiritomb are not counted, so never discard them for the count."
+    },
+    {
+      "cards": [
+        "Explorer's Guidance",
+        "Gwynn",
+        "Naveen",
+        "Ultra Ball",
+        "Prism Tower"
+      ],
+      "card_text": [
+        "Explorer's Guidance: \"Look at the top 6 cards of your deck and put 2 of them into your hand. Discard the other cards.\"",
+        "Gwynn: \"Discard up to 2 Pokémon that don't have a Rule Box from your hand, and draw 3 cards for each card you discarded in this way.\"",
+        "Naveen: \"Before drawing cards, you may discard any number of cards from your hand.\"",
+        "Ultra Ball: \"You can use this card only if you discard 2 other cards from your hand.\"",
+        "Prism Tower: \"that player may discard 2 cards from their hand in order to draw a card\""
+      ],
+      "how_they_interact": "Discarding is the engine, so what other decks pay as a cost (Ultra Ball's 2 cards, Naveen's discard) is the point here. Per use: Explorer's Guidance up to 4, Gwynn 2 (and 6 cards drawn), Ultra Ball 2, Naveen any number, Prism Tower 2 per turn. One turn with Explorer's Guidance, an Ultra Ball and Prism Tower can send 6-8 cards to the pile, which reaches the 4 threshold early and the 6 soon after. Only one Supporter a turn, so Explorer's Guidance, Gwynn and Naveen are the choice each turn; Ultra Ball and Prism Tower stack on top."
+    },
+    {
+      "cards": [
+        "Banette",
+        "Poké Pad",
+        "Telepathic Psychic Energy",
+        "Night Stretcher",
+        "Lillie's Determination"
+      ],
+      "card_text": [
+        "Banette: \"You may search your deck for a card and put it into your hand.\"",
+        "Poké Pad: \"Search your deck for a Pokémon that doesn't have a Rule Box\"",
+        "Telepathic Psychic Energy: \"search your deck for up to 2 Basic {P} Pokémon and put them onto your Bench\"",
+        "Night Stretcher: \"Put a Pokémon or a Basic Energy card from your discard pile into your hand.\""
+      ],
+      "how_they_interact": "The engine needs the right Basic in play. Telepathic Psychic Energy benches 2 Psychic Basics (Shuppet, Dhelmise, Spiritomb) and is also the Energy for Dhelmise. Poké Pad finds any Pokémon without a Rule Box, and Banette's 80-damage attack searches any card, so it also finds the missing Supporter. Night Stretcher is the one card that works against the count: each Hide 'n' Sneak Pokémon it takes out lowers the discard pile by 1. Use it to get back Dhelmise (which is not counted) or a Basic Energy. Lillie's Determination is the reset when the hand is empty: it shuffles the hand away, so play it after the discards."
+    },
+    {
+      "cards": [
+        "Sinistcha",
+        "Poltchageist",
+        "Spiritomb",
+        "Boss's Orders"
+      ],
+      "card_text": [
+        "Poltchageist: \"Place 1 damage counter on your opponent's Active Pokémon.\"",
+        "Sinistcha: \"place 4 damage counters on each of your opponent's Pokémon\"",
+        "Boss's Orders: \"Switch in 1 of your opponent's Benched Pokémon to the Active Spot.\""
+      ],
+      "how_they_interact": "The finishing chain. Sinistcha puts 40 on everything, Poltchageist adds 10 on the Active and Dhelmise or Banette hit the Active, then Boss's Orders brings a Pokémon with counters forward. Once 13 are in the pile, Spiritomb quadruples the counters on two Pokémon: 4 counters (40) on each become 16 (160), 5 become 20 (200). Sinistcha hits every opposing Pokémon, so a wider opposing Bench takes more total damage."
+    },
+    {
+      "cards": [
+        "Lillie's Clefairy ex",
+        "Dhelmise"
+      ],
+      "card_text": [
+        "Lillie's Clefairy ex: \"The Weakness of each of your opponent's {N} Pokémon in play is now {P}. (Apply Weakness as ×2.)\"",
+        "Dhelmise: \"this attack does 140 more damage\""
+      ],
+      "how_they_interact": "Dhelmise is Psychic, so against {N} (Dragon) Pokémon, Fairy Zone makes its 170 into 340, enough to Knock Out a 320 HP Dragapult ex in one hit for a single Prize. Clefairy ex is a 2-Prize Pokémon, so it comes down only against Dragon decks."
+    },
+    {
+      "cards": [
+        "Latias ex",
+        "Bloodmoon Ursaluna ex",
+        "Legacy Energy"
+      ],
+      "card_text": [
+        "Latias ex: \"Your Basic Pokémon in play have no Retreat Cost.\"",
+        "Bloodmoon Ursaluna ex: \"Blood Moon used by this Pokémon costs {C} less for each Prize card your opponent has taken.\"",
+        "Legacy Energy: \"that player takes 1 fewer Prize card\""
+      ],
+      "how_they_interact": "The late-game package, for when the opponent has taken Prizes. Blood Moon costs 5 Colorless and 240 damage, 1 less per Prize taken, so after 4 Prizes it costs 1. This is the plan for a deck that gives up Prizes slowly with single-Prize Pokémon, and Legacy Energy slows the count by 1 once. Latias ex gives Dhelmise (Retreat 3) and Ursaluna (Retreat 3) a free retreat so the right attacker is Active."
+    }
+  ]
+}

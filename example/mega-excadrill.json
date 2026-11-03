@@ -1,0 +1,155 @@
+{
+  "deck_name": "Mega Excadrill ex (Metang)",
+  "source": {
+    "archetype_page": "https://limitlesstcg.com/decks/376",
+    "list_page": "https://limitlesstcg.com/decks/list/30008",
+    "result": "Riguel Assis, 5th place, Regional Recife (3 Oct 2026). The archetype's best Nice result was 168th, and its 1st place came from a Japanese event, so this English-format list was used.",
+    "format": "Standard, Temporal Forces to 30th Celebration",
+    "archetype_record": "2 Regional Top 8s",
+    "note": "A real tournament list. card_text entries are short quotes from data/; see the full text there."
+  },
+  "requirements": "Real tournament list: Metal deck where Metang accelerates Metal Energy from the top of the deck every turn, powering heavy Metal attackers led by Mega Excadrill ex.",
+  "cards": [
+    { "name": "Beldum", "count": 3, "id": "sv05-113", "role": "Basic for Metang." },
+    { "name": "Beldum", "count": 1, "id": "me04-059", "role": "Second Beldum version, also for Metang." },
+    { "name": "Metang", "count": 4, "id": "sv05-114", "role": "Energy engine: once a turn, looks at the top 4 cards and attaches any Metal Energy there to your Pokémon. 4 copies so two or three run at once." },
+    { "name": "Metagross", "count": 1, "id": "me04-061", "role": "Stage 2 backup attacker: a big hit, or a smaller one that pushes the opponent's Active to the Bench." },
+    { "name": "Drilbur", "count": 3, "id": "me05-046", "role": "Basic for Mega Excadrill ex; its 1-Energy attack benches 2 Basics from the deck." },
+    { "name": "Mega Excadrill ex", "count": 2, "id": "me05-065", "role": "Main attacker: 340 HP Stage 1. One attack does 90 and discards the top 2 cards of the opponent's deck; the other does 200, or 330 with 2 extra Energy attached, which Metang supplies." },
+    { "name": "Piplup", "count": 2, "id": "me02-027", "role": "Its 1-Energy attack searches a Supporter; also the Basic for Empoleon ex." },
+    { "name": "Empoleon ex", "count": 1, "id": "me02-070", "role": "Stage 2 tank (via Rare Candy): immune to the effects of opposing attacks, and its attack hits for 210 and reduces damage taken next turn." },
+    { "name": "Genesect ex", "count": 2, "id": "sv10.5b-067", "role": "Search engine: once a turn, finds up to 2 Metal Evolution Pokémon (Metang, Mega Excadrill ex, Metagross, Empoleon ex). Also a 150-damage attacker." },
+    { "name": "Mega Skarmory ex", "count": 1, "id": "me03-055", "role": "Snipes any opposing Pokémon for 220; its Energy goes back into the deck, where Metang can find it again. No Retreat Cost." },
+    { "name": "Fezandipiti ex", "count": 1, "id": "me02.5-142", "role": "Draws 3 after a Knock Out." },
+    { "name": "Brock's Scouting", "count": 4, "id": "sv09-146", "role": "Finds 2 Basics or 1 Evolution Pokémon: early setup without Item search." },
+    { "name": "Team Rocket's Petrel", "count": 4, "id": "sv10-176", "role": "Searches any Trainer card." },
+    { "name": "Boss's Orders", "count": 1, "id": "me01-114", "role": "Gusts a target; Mega Skarmory ex covers Benched targets too." },
+    { "name": "Kieran", "count": 1, "id": "sv06-154", "role": "Flexible Supporter: either a switch or extra damage against Pokémon ex for the turn." },
+    { "name": "Buddy-Buddy Poffin", "count": 4, "id": "sv05-144", "role": "Benches 2 small Basics: Beldum, Drilbur, Piplup." },
+    { "name": "Pokégear 3.0", "count": 4, "id": "sv10.5b-084", "role": "Finds a Supporter from the top 7 cards. Limitless lists an older printing (sv01-186, G mark); this is the legal printing in your data." },
+    { "name": "Jumbo Ice Cream", "count": 1, "id": "me02-091", "role": "Heals 80 from an Active with 3+ Energy, which this deck's attackers usually have." },
+    { "name": "Switch", "count": 1, "id": "me01-130", "role": "Mega Excadrill ex has a high Retreat Cost, so a free switch matters." },
+    { "name": "Rare Candy", "count": 1, "id": "me01-125", "role": "Piplup straight into Empoleon ex, or Beldum into Metagross." },
+    { "name": "Hero's Cape", "count": 1, "id": "sv05-152", "role": "ACE SPEC Tool: +100 HP, making Mega Excadrill ex very hard to Knock Out." },
+    { "name": "Metal Energy", "count": 17, "role": "Very high count on purpose: Metang attaches only Metal Energy it finds in the top 4, so each extra Energy raises the hit chance (4 x 17/60, about 1.1 per use)." }
+  ],
+  "strategy": "Bench Beldum and Drilbur early, then evolve several Metang and use Metal Maker every turn to attach Metal Energy straight from the deck. Genesect ex searches the Metal evolutions. Mega Excadrill ex attacks with 5 Energy for 330, or with 2 for 90 plus discarding the top of the opponent's deck. Mega Skarmory ex snipes the Bench for 220, and Empoleon ex and Metagross are backup heavy hitters. Hero's Cape and Jumbo Ice Cream keep the big attackers alive.",
+  "main_resource": {
+    "resource": "Metal Energy attached to Mega Excadrill ex (5 for its big attack); 17 Metal Energy in the deck",
+    "formula": "Maximum Drilling costs 3 and does 200, or 200 + 130 = 330 with 2 extra Energy, so 5 Energy. Metal Maker looks at the top 4 cards: from a full 60-card deck that is 4 x 17/60, about 1.1 Metal Energy per Metang, and at least 1 about 75% of the time. Two Metang plus the manual attachment add about 3.3 Energy a turn.",
+    "cards": [
+      {
+        "name": "Metang",
+        "effect": "about +1.1 Energy per Metang each turn, attached to any Pokémon you choose (4 copies)"
+      },
+      {
+        "name": "Metal Energy",
+        "effect": "17 in 60 cards; every one in the deck raises Metal Maker's chance of a hit"
+      },
+      {
+        "name": "Genesect ex",
+        "effect": "finds up to 2 Metal Evolution Pokémon, so Metang and Mega Excadrill ex come together (0 Energy)"
+      },
+      {
+        "name": "Brock's Scouting",
+        "effect": "finds 1 Evolution Pokémon (a Metang) or 2 Basics for setup"
+      },
+      {
+        "name": "Jumbo Ice Cream",
+        "effect": "keeps the 5 Energy on the board: heals 80 on an Active with 3 or more"
+      },
+      {
+        "name": "Hero's Cape",
+        "effect": "+100 HP, so Mega Excadrill ex survives a hit and keeps its Energy (440 HP)"
+      },
+      {
+        "name": "Mega Skarmory ex",
+        "effect": "-3 Energy (shuffled into the deck) for a 220 snipe; Metang finds them again"
+      },
+      {
+        "name": "Metagross",
+        "effect": "-3 Energy for +150 damage (300 total); optional"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "cards": [
+        "Metang",
+        "Metal Energy",
+        "Mega Excadrill ex"
+      ],
+      "card_text": [
+        "Metang: \"you may look at the top 4 cards of your deck and attach any number of Basic {M} Energy cards you find there to your Pokémon in any way you like\"",
+        "Mega Excadrill ex: \"If this Pokémon has at least 2 extra Energy attached (in addition to this attack's cost), this attack does 130 more damage.\""
+      ],
+      "how_they_interact": "The main engine: Energy comes from the deck, not the hand, so it doesn't use the manual attachment. Each Metang looks at 4 cards and attaches every Metal Energy there, all onto Mega Excadrill ex if you want. 17 Metal Energy gives about 1.1 per use, and each Metang is its own use, so 2 Metang plus the manual attachment reach about 3.3 Energy a turn so Excadrill needs about 2 turns of that to reach 5 Energy (330 damage). Limit: Metal Maker is random (about a 25% chance of nothing per Metang), which is why the deck has 17 Energy and 4 Metang. The other cards from the top 4 go to the bottom of the deck."
+    },
+    {
+      "cards": [
+        "Beldum",
+        "Drilbur",
+        "Piplup",
+        "Buddy-Buddy Poffin",
+        "Brock's Scouting",
+        "Genesect ex",
+        "Rare Candy"
+      ],
+      "card_text": [
+        "Buddy-Buddy Poffin: \"Search your deck for up to 2 Basic Pokémon with 70 HP or less\"",
+        "Brock's Scouting: \"Search your deck for up to 2 Basic Pokémon or 1 Evolution Pokémon\"",
+        "Genesect ex: \"you may search your deck for up to 2 Evolution {M} Pokémon, reveal them, and put them into your hand\"",
+        "Drilbur: \"Search your deck for up to 2 Basic Pokémon and put them onto your Bench.\""
+      ],
+      "how_they_interact": "Poffin benches 2 of Beldum (70 HP), Drilbur (70 HP) or Piplup (70 HP), and Drilbur's 1-Energy Call for Family benches 2 more Basics from the deck, so the box comes out quickly. Genesect ex then fetches Metang and Mega Excadrill ex (both Metal evolutions) without using the Supporter, and Brock's Scouting finds an Evolution Pokémon on the turns it is the only Supporter. Genesect ex (220 HP) and Mega Skarmory ex (260 HP) are over 70 HP, so Poffin can't find them. Rare Candy skips Metang: Beldum straight into Metagross, or Piplup straight into Empoleon ex."
+    },
+    {
+      "cards": [
+        "Mega Skarmory ex",
+        "Metang",
+        "Kieran",
+        "Boss's Orders",
+        "Mega Excadrill ex",
+        "Metagross"
+      ],
+      "card_text": [
+        "Mega Skarmory ex: \"Shuffle all Energy attached to this Pokémon into your deck, and this attack does 220 damage to 1 of your opponent's Pokémon.\"",
+        "Kieran: \"attacks used by your Pokémon do 30 more damage to your opponent's Active Pokémon ex and Active Pokémon V\"",
+        "Metagross: \"You may discard 3 {M} Energy from this Pokémon and have this attack do 150 more damage.\""
+      ],
+      "how_they_interact": "The Energy Skarmory pays comes back into the deck, so it can be found again by Metal Maker. That makes the 220 snipe on any Benched Pokémon a repeatable attack, and with Retreat 0 it retreats for free so Excadrill can take over. Kieran adds 30 to an attack against an Active Pokémon ex: Maximum Drilling becomes 360. Boss's Orders puts a damaged Pokémon in the Active Spot for Excadrill, so Skarmory spreads and Excadrill finishes. Limit: Kieran's 30 doesn't apply to the Benched target of Sonic Ripper. Metagross is the contrast: Metallic Hammer discards its 3 Energy (300 damage in total), and discarded Energy is gone for Metal Maker, so use Skarmory when you want the Energy back."
+    },
+    {
+      "cards": [
+        "Mega Excadrill ex",
+        "Hero's Cape",
+        "Jumbo Ice Cream",
+        "Switch",
+        "Kieran",
+        "Empoleon ex"
+      ],
+      "card_text": [
+        "Hero's Cape: \"The Pokémon this card is attached to gets +100 HP.\"",
+        "Jumbo Ice Cream: \"Heal 80 damage from your Active Pokémon that has 3 or more Energy attached.\"",
+        "Empoleon ex: \"Prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon.\""
+      ],
+      "how_they_interact": "Mega Excadrill ex has 340 HP, 440 with Hero's Cape, and Jumbo Ice Cream's condition (3 or more Energy) is met whenever it can use Maximum Drilling. 440 HP survives two 200-damage hits (it takes 3), and each Jumbo Ice Cream heals 80 on top. Its Retreat is 4, so Switch and Kieran's switch option are the free way out when it is hurt. Empoleon ex is the second tank: it ignores the effects of attacks, and Iron Feathers takes 60 less damage next turn."
+    },
+    {
+      "cards": [
+        "Team Rocket's Petrel",
+        "Pokégear 3.0",
+        "Piplup",
+        "Fezandipiti ex",
+        "Brock's Scouting"
+      ],
+      "card_text": [
+        "Team Rocket's Petrel: \"Search your deck for a Trainer card\"",
+        "Pokégear 3.0: \"Look at the top 7 cards of your deck. You may reveal a Supporter card you find there\"",
+        "Piplup: \"Search your deck for a Supporter card\"",
+        "Fezandipiti ex: \"you may draw 3 cards\""
+      ],
+      "how_they_interact": "The deck has few draw cards, so the search cards pick which Supporter is played each turn. Petrel finds any Trainer (Rare Candy, Hero's Cape, Switch), Pokégear 3.0 finds a Supporter from the top 7, and Piplup's 1-Energy attack finds one from the whole deck. Fezandipiti ex is the only draw, 3 cards after a Knock Out, so a Knocked Out Excadrill still leaves a hand."
+    }
+  ]
+}

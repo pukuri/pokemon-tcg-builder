@@ -1,0 +1,190 @@
+{
+  "deck_name": "Alakazam (Dusknoir)",
+  "source": {
+    "archetype_page": "https://limitlesstcg.com/decks/350",
+    "list_page": "https://limitlesstcg.com/decks/list/29493",
+    "result": "Linked from Michael Hessing's 12th place, Regional Nice (17 Oct 2026). The list page credits it first to Tomasz Chałupka, 1st place at Regional Frankfurt, and lists other players who used the same 60 cards.",
+    "format": "Standard, Temporal Forces to 30th Celebration",
+    "archetype_record": "11 Regional Top 8s (2 wins), 4 International Top 8s (1 win)",
+    "note": "A real tournament list. card_text entries are short quotes from data/; see the full text there."
+  },
+  "requirements": "Real tournament list: Alakazam's attack places damage counters for every card in your hand, so the deck draws huge hands, re-uses evolution draw Abilities, and adds damage counters with the Dusknoir line.",
+  "cards": [
+    { "name": "Duskull", "count": 4, "id": "sv08.5-035", "role": "Basic for Dusclops and Dusknoir." },
+    { "name": "Dusclops", "count": 2, "id": "sv08.5-036", "role": "Ability: Knocks itself Out to place 5 damage counters on an opposing Pokémon." },
+    { "name": "Dusknoir", "count": 2, "id": "sv08.5-037", "role": "Ability: Knocks itself Out to place 13 damage counters on an opposing Pokémon; finishes what Alakazam started." },
+    { "name": "Abra", "count": 3, "id": "me01-054", "role": "Basic for Kadabra; its attack switches it to the Bench." },
+    { "name": "Abra", "count": 1, "id": "sv06-080", "role": "Second Abra version: while Active it can shuffle itself into the deck, a free way out of a bad start." },
+    { "name": "Kadabra", "count": 4, "id": "me01-055", "role": "Draws 2 when you evolve into it from hand." },
+    { "name": "Alakazam", "count": 3, "id": "me01-056", "role": "Main attacker. Draws 3 when you evolve into it from hand. Its attack places 2 damage counters on the opponent's Active for each card in your hand, for 1 Psychic Energy." },
+    { "name": "Budew", "count": 2, "id": "me02.5-016", "role": "Free attack that stops the opponent playing Items next turn while the Stage 2 lines build." },
+    { "name": "Shaymin", "count": 1, "id": "sv10-010", "role": "Protects your Benched Pokémon without a Rule Box (almost the whole Bench) from attack damage. Works alone: it keeps the Benched Abra, Kadabra and Duskull lines alive against spread attacks.", "standalone": true},
+    { "name": "Fezandipiti ex", "count": 1, "id": "me02.5-142", "role": "Draws 3 after a Knock Out, adding to hand size for Alakazam." },
+    { "name": "Hilda", "count": 4, "id": "sv10.5w-084", "role": "Finds an Evolution Pokémon and an Energy card in one Supporter." },
+    { "name": "Dawn", "count": 4, "id": "me02-087", "role": "Finds a Basic, a Stage 1 and a Stage 2 Pokémon at once: a full Alakazam or Dusknoir line." },
+    { "name": "Gwynn", "count": 3, "id": "me05-078", "role": "Discard up to 2 Pokémon without a Rule Box and draw 3 for each: hand size +3 net, the biggest single boost to Powerful Hand. Fills the discard pile for Night Stretcher and Sacred Ash. 3 copies." },
+    { "name": "Boss's Orders", "count": 1, "id": "me01-114", "role": "Gusts a target into range of Alakazam's attack." },
+    { "name": "Rare Candy", "count": 4, "id": "me01-125", "role": "Evolves Abra or Duskull straight to Stage 2, getting Alakazam out on turn 2. 4 copies." },
+    { "name": "Poké Pad", "count": 4, "id": "me03-081", "role": "Searches any non-Rule-Box Pokémon: the whole engine." },
+    { "name": "Buddy-Buddy Poffin", "count": 3, "id": "sv05-144", "role": "Benches 2 small Basics: Abra, Duskull, Budew." },
+    { "name": "Strange Timepiece", "count": 3, "id": "me01-128", "role": "Devolves a Benched Kadabra or Alakazam and returns its Evolution cards to hand (+1 hand size right away). Re-evolving next turn draws again, without using up the deck. 3 copies." },
+    { "name": "Special Red Card", "count": 2, "id": "me04-082", "role": "Late-game hand disruption when the opponent is close to winning. Works alone: it targets the opponent's hand and doesn't interact with this deck's engine.", "standalone": true},
+    { "name": "Night Stretcher", "count": 2, "id": "me02.5-196", "role": "Gets a Pokémon back from the discard pile without drawing from the deck. A recovered Kadabra or Alakazam draws again when it evolves. A Dusclops or Dusknoir can blast again. 2 copies." },
+    { "name": "Sacred Ash", "count": 1, "id": "sv10-168", "role": "Shuffles up to 5 Pokémon (used Dusk line, Gwynn discards, Knocked Out Kadabra/Alakazam) back into the deck. Prevents a deck-out after big draw turns and refills Dawn, Hilda and Poké Pad targets. 1 copy, for long games." },
+    { "name": "Prime Catcher", "count": 1, "id": "sv05-157", "role": "ACE SPEC: gusts an opposing Benched Pokémon and switches your own Active in one Item." },
+    { "name": "Telepathic Psychic Energy", "count": 4, "role": "Provides Psychic; when attached from hand to a Psychic Pokémon, benches 2 Basic Psychic Pokémon (Abra, Duskull) from the deck." },
+    { "name": "Psychic Energy", "count": 1, "role": "Extra Psychic for Alakazam's 1-Energy attack." }
+  ],
+  "strategy": "Build Alakazam and Dusknoir lines fast with Dawn, Hilda, Rare Candy and Telepathic Psychic Energy, while Budew locks Items early. Every card in hand is 20 damage for Powerful Hand, so the deck plays mostly cards that leave the hand bigger than before: evolution draws, Gwynn, Dawn, Strange Timepiece and Fezandipiti ex. Anything it doesn't need is kept in hand, because it still counts. Dusclops and Dusknoir add 5 or 13 counters to finish the Active or take a Benched Knock Out, giving up only 1 Prize each. Drawing 10+ cards a turn would deck the player out, so Night Stretcher and Strange Timepiece add hand size without drawing from the deck, and Sacred Ash shuffles 5 Pokémon back in for long games.",
+  "main_resource": {
+    "resource": "Cards in your hand when Alakazam attacks",
+    "formula": "Powerful Hand: 2 damage counters (20 damage) per card in hand. 11 cards = 220, 14 = 280, 17 = 340.",
+    "cards": [
+      {
+        "name": "Gwynn",
+        "effect": "+3 (spends itself and 2 Pokémon, draws 6)"
+      },
+      {
+        "name": "Fezandipiti ex",
+        "effect": "+3 (an Ability, no card spent; only after the opponent Knocks Out one of your Pokémon)"
+      },
+      {
+        "name": "Alakazam",
+        "effect": "+2 when evolved from hand (draws 3)"
+      },
+      {
+        "name": "Dawn",
+        "effect": "+2 (searches 3 Pokémon)"
+      },
+      {
+        "name": "Kadabra",
+        "effect": "+1 when evolved from hand (draws 2)"
+      },
+      {
+        "name": "Rare Candy",
+        "effect": "+1 when used into Alakazam (spends 2 cards, draws 3)"
+      },
+      {
+        "name": "Hilda",
+        "effect": "+1 (searches 2 cards)"
+      },
+      {
+        "name": "Strange Timepiece",
+        "effect": "+1 now on a Kadabra-line Alakazam, then +3 more when both are replayed next turn"
+      },
+      {
+        "name": "Night Stretcher",
+        "effect": "0, but the Kadabra or Alakazam it returns draws when evolved; doesn't draw from the deck"
+      },
+      {
+        "name": "Poké Pad",
+        "effect": "0 (spends itself, searches 1 Pokémon)"
+      },
+      {
+        "name": "Buddy-Buddy Poffin",
+        "effect": "-1 (Pokémon go to the Bench): play before attacking only when needed"
+      },
+      {
+        "name": "Boss's Orders",
+        "effect": "-1: play first, before counting the hand"
+      },
+      {
+        "name": "Telepathic Psychic Energy",
+        "effect": "-1, like any Energy attachment"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "cards": [
+        "Alakazam",
+        "Kadabra",
+        "Rare Candy",
+        "Gwynn",
+        "Dawn",
+        "Hilda",
+        "Strange Timepiece",
+        "Fezandipiti ex",
+        "Night Stretcher"
+      ],
+      "card_text": [
+        "Alakazam: \"Place 2 damage counters on your opponent's Active Pokémon for each card in your hand.\" / \"Draw 3 cards.\" when evolved from hand",
+        "Kadabra: \"when you play this Pokémon from your hand to evolve ... Draw 2 cards.\"",
+        "Gwynn: \"Discard up to 2 Pokémon that don't have a Rule Box from your hand, and draw 3 cards for each\"",
+        "Dawn: \"Search your deck for a Basic Pokémon, a Stage 1 Pokémon, and a Stage 2 Pokémon\"",
+        "Hilda: \"Search your deck for an Evolution Pokémon and an Energy card\"",
+        "Strange Timepiece: \"Devolve 1 of your evolved {P} Pokémon by putting any number of Evolution cards on it into your hand.\"",
+        "Fezandipiti ex: \"if any of your Pokémon were Knocked Out during your opponent's last turn, you may draw 3 cards\"",
+        "Night Stretcher: \"Put a Pokémon or a Basic Energy card from your discard pile into your hand.\""
+      ],
+      "how_they_interact": "This is the deck's main engine. Powerful Hand does 20 damage per card in hand, so the count before attacking is what matters. Net hand change of each card (cards gained minus the card played): Kadabra evolving +1, Alakazam evolving +2, Rare Candy into Alakazam +1, Gwynn +3 (spends itself and 2 Pokémon, draws 6), Dawn +2, Hilda +1, Strange Timepiece on a Kadabra-line Alakazam +1 (more on the re-evolve turn), Fezandipiti ex +3 (an Ability, costs no card), Night Stretcher 0 but the card it returns can evolve and draw. Plus +1 from the turn's draw. A hand of 11 Knocks Out a 220 HP Pokémon, 14 a 280 HP one, 17 a 340 HP one. Sequencing: play the cards that shrink the hand (Buddy-Buddy Poffin, Boss's Orders, Energy, Poké Pad) first, then the hand growers, then attack. Keep spare cards in hand, because they still count. Fezandipiti ex only draws after the opponent Knocks Out one of your Pokémon on their turn. Your own Cursed Blast happens on your turn, so it doesn't trigger it. In a single-Prize deck the opponent does Knock Outs most turns anyway."
+    },
+    {
+      "cards": [
+        "Strange Timepiece",
+        "Kadabra",
+        "Alakazam"
+      ],
+      "card_text": [
+        "Strange Timepiece: \"putting any number of Evolution cards on it into your hand. (That Pokémon can't evolve this turn.)\"",
+        "Kadabra: \"Draw 2 cards.\"",
+        "Alakazam: \"Draw 3 cards.\""
+      ],
+      "how_they_interact": "Use Timepiece on a Benched Alakazam that has a Kadabra under it. Both Evolution cards return to hand: +1 hand size now, still counted for this turn's attack. The Abra can't evolve this turn, so on the next turn you replay Kadabra (+2 cards) and Alakazam (+3 cards). The same 2 cards draw 5 again, and none of it uses the deck up as a cost. Never use it on the Active Alakazam, which would leave an Abra Active that can't evolve. On an Alakazam that came from Rare Candy, only the Alakazam returns (net 0), so use Timepiece on the Kadabra line."
+    },
+    {
+      "cards": [
+        "Sacred Ash",
+        "Night Stretcher",
+        "Strange Timepiece",
+        "Gwynn"
+      ],
+      "card_text": [
+        "Sacred Ash: \"Shuffle up to 5 Pokémon from your discard pile into your deck.\"",
+        "Night Stretcher: \"Put a Pokémon or a Basic Energy card from your discard pile into your hand.\"",
+        "Gwynn: \"draw 3 cards for each card you discarded\""
+      ],
+      "how_they_interact": "Deck-out protection. After the opening 7 and 6 Prizes the deck holds 47 cards. One big turn (draw 1 + Kadabra 2 + Alakazam 3 + Gwynn 6) uses 12, so 4 such turns empty it, and the player loses when they can't draw at the start of a turn. Night Stretcher and Strange Timepiece add cards to hand from the discard pile or the board, not from the deck, so the hand grows without the deck shrinking. Use them first when the deck is low. Sacred Ash shuffles up to 5 Pokémon back in: the Pokémon Gwynn discarded, used Dusclops and Dusknoir, Knocked Out Kadabra and Alakazam. That's 5 more turns of draws, and Dawn, Hilda and Poké Pad have targets again. Gwynn fills the discard pile with exactly the Pokémon these cards bring back, so discarding to Gwynn doesn't lose those cards for good. When the deck is low, skip optional draws: Psychic Draw and Flip the Script are all \"you may\"."
+    },
+    {
+      "cards": [
+        "Alakazam",
+        "Dusclops",
+        "Dusknoir",
+        "Boss's Orders",
+        "Prime Catcher",
+        "Night Stretcher",
+        "Sacred Ash",
+        "Duskull"
+      ],
+      "card_text": [
+        "Dusclops: \"put 5 damage counters on 1 of your opponent's Pokémon. If you use this Ability, this Pokémon is Knocked Out.\"",
+        "Dusknoir: \"put 13 damage counters on 1 of your opponent's Pokémon\"",
+        "Boss's Orders / Prime Catcher: \"Switch in 1 of your opponent's Benched Pokémon to the Active Spot.\"",
+        "Duskull: \"Put up to 3 Duskull from your discard pile onto your Bench.\""
+      ],
+      "how_they_interact": "Alakazam only hits the Active. Cursed Blast can hit any Pokémon: top up the Active when the hand is a few cards short (each Dusclops counter is one fewer card needed), or take a Benched Knock Out for a 2-Prize turn. Boss's Orders or Prime Catcher pulls the target into range for Powerful Hand. Each Cursed Blast gives up 1 Prize and puts the Pokémon in the discard pile. Night Stretcher returns a Dusknoir to hand (it counts for Powerful Hand until played), Sacred Ash shuffles the line back for Dawn and Hilda, and Duskull's Come and Get You rebenches up to 3 Duskull."
+    },
+    {
+      "cards": [
+        "Dawn",
+        "Hilda",
+        "Rare Candy",
+        "Telepathic Psychic Energy",
+        "Buddy-Buddy Poffin",
+        "Poké Pad",
+        "Abra",
+        "Budew"
+      ],
+      "card_text": [
+        "Dawn: \"a Basic Pokémon, a Stage 1 Pokémon, and a Stage 2 Pokémon\"",
+        "Hilda: \"an Evolution Pokémon and an Energy card\"",
+        "Telepathic Psychic Energy: \"search your deck for up to 2 Basic {P} Pokémon and put them onto your Bench\"",
+        "Poké Pad: \"Search your deck for a Pokémon that doesn't have a Rule Box\"",
+        "Abra: \"if this Pokémon is in the Active Spot, you may shuffle it and all attached cards into your deck\"",
+        "Budew: \"they can't play any Item cards from their hand\""
+      ],
+      "how_they_interact": "Two Stage 2 lines are normally slow. Poffin and Telepathic Energy bench Abra and Duskull from the deck, Dawn fetches a full line, Poké Pad finds the missing piece, and Rare Candy skips Kadabra on turn 2, so Alakazam attacks from turn 2. Budew's Item lock buys time meanwhile. If the sv06-080 Abra starts Active, Teleporter shuffles it away for free, and you promote Budew instead. Prefer Kadabra when there's time: it draws 2, and Strange Timepiece gets more from it later."
+    }
+  ]
+}

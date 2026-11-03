@@ -1,0 +1,3 @@
+{
+  "excludeTools": ["web_fetch", "google_web_search"]
+}

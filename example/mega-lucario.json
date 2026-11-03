@@ -1,0 +1,170 @@
+{
+  "deck_name": "Mega Lucario ex (Solrock & Lunatone)",
+  "source": {
+    "archetype_page": "https://limitlesstcg.com/decks/345",
+    "list_page": "https://limitlesstcg.com/decks/list/29480",
+    "result": "Masato Shimada, 8th place, Regional Brisbane (26 Sep 2026). The best Nice result was 54th, so this earlier Top 8 list was used instead.",
+    "format": "Standard, Temporal Forces to 30th Celebration",
+    "archetype_record": "5 Regional Top 8s (1 win), 1 International Top 8",
+    "note": "A real tournament list. card_text entries are short quotes from data/; see the full text there."
+  },
+  "requirements": "Real tournament list: mono-Fighting deck. Mega Lucario ex hits hard and recycles Fighting Energy from the discard pile onto the Bench, while Lunatone turns discarded Energy into draw and Solrock adds a single-Prize attacker.",
+  "cards": [
+    { "name": "Riolu", "count": 3, "id": "me01-076", "role": "Basic for Mega Lucario ex." },
+    { "name": "Mega Lucario ex", "count": 3, "id": "me01-077", "role": "Main attacker, 340 HP. Its 1-Energy attack does 130 and attaches up to 3 Fighting Energy from the discard pile to Benched Pokémon; its 2-Energy attack does 270 but can't be used two turns in a row." },
+    { "name": "Solrock", "count": 3, "id": "me01-075", "role": "Single-Prize attacker: 70 for 1 Energy, ignoring Weakness and Resistance, as long as Lunatone is on the Bench." },
+    { "name": "Lunatone", "count": 2, "id": "me01-074", "role": "Draw engine: with Solrock in play, discard a Fighting Energy from hand to draw 3. The discarded Energy is later recycled by Lucario." },
+    { "name": "Makuhita", "count": 2, "id": "me01-072", "role": "Basic for Hariyama." },
+    { "name": "Hariyama", "count": 2, "id": "me01-073", "role": "Gusts an opposing Benched Pokémon into the Active Spot when you evolve into it: a Boss's Orders that doesn't use the Supporter." },
+    { "name": "Meowth ex", "count": 1, "id": "me03-062", "role": "Searches a Supporter when benched." },
+    { "name": "Shaymin", "count": 1, "id": "sv10-010", "role": "Protects your Benched Pokémon without a Rule Box (Lunatone, Solrock, Riolu, Makuhita) from attack damage. Not Mega Lucario ex, which has a Rule Box. 1 copy." },
+    { "name": "Lillie's Determination", "count": 4, "id": "me01-119", "role": "Main draw Supporter, played after Lunatone's discard because it shuffles the hand away. 4 copies." },
+    { "name": "Judge", "count": 2, "id": "me03-076", "role": "Both players shuffle away their hands and draw 4." },
+    { "name": "Boss's Orders", "count": 2, "id": "me01-114", "role": "Gusts a target; Hariyama adds more gusts." },
+    { "name": "Team Rocket's Petrel", "count": 1, "id": "sv10-176", "role": "Searches any Trainer card." },
+    { "name": "Ultra Ball", "count": 4, "id": "me01-131", "role": "Searches any Pokémon; discarding Fighting Energy also feeds Lucario's recycling." },
+    { "name": "Fighting Gong", "count": 4, "id": "me01-116", "role": "Searches a Basic Fighting Energy or a Basic Fighting Pokémon (Riolu, Solrock, Lunatone, Makuhita)." },
+    { "name": "Poké Pad", "count": 4, "id": "me03-081", "role": "Searches non-Rule-Box Pokémon, including Hariyama." },
+    { "name": "Premium Power Pro", "count": 4, "id": "me01-124", "role": "+30 damage for Fighting Pokémon this turn: turns 270 into 300 and 70 into 100." },
+    { "name": "Switch", "count": 1, "id": "me01-130", "role": "Free switch." },
+    { "name": "Unfair Stamp", "count": 1, "id": "sv06-165", "role": "ACE SPEC comeback card after a Knock Out." },
+    { "name": "Air Balloon", "count": 2, "id": "me02.5-181", "role": "Tool: Retreat Cost 2 less, so Lucario and Hariyama swap freely." },
+    { "name": "Gravity Mountain", "count": 2, "id": "sv08-177", "role": "Stadium: every Stage 2 Pokémon loses 30 HP; it hurts opposing Stage 2 decks and none of this deck's Pokémon are Stage 2." },
+    { "name": "Fighting Energy", "count": 12, "role": "Powers every attacker; discarded copies come back through Lucario's attack." }
+  ],
+  "strategy": "Set up Riolu, Solrock and Lunatone, using Lunatone to discard Fighting Energy and draw 3 each turn. Mega Lucario ex alternates its attacks: the cheap one hits for 130 and moves 3 discarded Energy onto the Bench, powering the next attackers, and the big one hits for 270 (300 with Premium Power Pro). Solrock is a single-Prize 70-100 damage attacker for smaller targets. Hariyama and Boss's Orders gust key targets, and Gravity Mountain weakens opposing Stage 2 Pokémon.",
+  "main_resource": {
+    "resource": "Basic Fighting Energy in the discard pile when Mega Lucario ex uses Aura Jab (up to 3 go to the Bench for free)",
+    "formula": "Aura Jab: 130, and up to 3 Basic Fighting Energy from the discard pile onto Benched Pokémon. Mega Brave: 270 for 2, then it can't be used next turn. Premium Power Pro adds 30: 160 and 300. Gravity Mountain takes 30 HP off every Stage 2, so a 300 Mega Brave Knocks Out a 320 HP Dragapult ex (290) or a 330 HP Hydrapple ex (300) in one attack.",
+    "cards": [
+      {
+        "name": "Lunatone",
+        "effect": "+1 Energy in the pile and +3 cards (discards 1 from hand to draw 3); needs Solrock in play, 1 use a turn"
+      },
+      {
+        "name": "Solrock",
+        "effect": "turns Lunatone on, and Cosmic Beam needs Lunatone on the Bench (70, or 100 with Premium Power Pro)"
+      },
+      {
+        "name": "Ultra Ball",
+        "effect": "up to +2 Energy in the pile (its discard cost) and finds a Pokémon; 4 copies"
+      },
+      {
+        "name": "Fighting Gong",
+        "effect": "finds a Basic Fighting Energy (for Lunatone to discard) or a Basic Fighting Pokémon; 4 copies"
+      },
+      {
+        "name": "Mega Lucario ex",
+        "effect": "Aura Jab: -3 from the pile, +3 on the Bench; 3 copies"
+      },
+      {
+        "name": "Fighting Energy",
+        "effect": "12 in the deck; every one discarded comes back through Aura Jab"
+      },
+      {
+        "name": "Lillie's Determination",
+        "effect": "shuffles the hand away: play it after Lunatone's discard, not before"
+      },
+      {
+        "name": "Judge",
+        "effect": "shuffles both hands away: same ordering as Lillie's"
+      },
+      {
+        "name": "Shaymin",
+        "effect": "keeps Lunatone and Solrock safe from damage while they sit on the Bench"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "cards": [
+        "Mega Lucario ex",
+        "Lunatone",
+        "Solrock",
+        "Fighting Gong",
+        "Ultra Ball",
+        "Fighting Energy"
+      ],
+      "card_text": [
+        "Lunatone: \"if you have Solrock in play, you may discard a Basic {F} Energy card from your hand in order to use this Ability. Draw 3 cards.\"",
+        "Mega Lucario ex: \"Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.\"",
+        "Fighting Gong: \"Search your deck for a Basic {F} Energy card or a Basic {F} Pokémon\"",
+        "Ultra Ball: \"You can use this card only if you discard 2 other cards from your hand.\""
+      ],
+      "how_they_interact": "The discard pile is part of the engine. Lunatone discards 1 Energy and draws 3; Ultra Ball discards 2 more; each Aura Jab then attaches up to 3 of them to the Bench without using the manual attachment. A chain: Fighting Gong finds an Energy, Lunatone discards it to draw 3, and now the pile holds 1 more Energy for Aura Jab (net +2 cards, 1 Energy in the pile). Over a game the same 12 Energy can be recycled up to 3 at a time. Limits: Lunatone needs Solrock in play (3 Solrock, 2 Lunatone, with 12 outs between Gong, Poké Pad and Ultra Ball), and needs a Basic Fighting Energy in the hand. Play Lunatone before Lillie's Determination or Judge, because both shuffle the hand and its Energy away."
+    },
+    {
+      "cards": [
+        "Mega Lucario ex",
+        "Riolu",
+        "Premium Power Pro",
+        "Gravity Mountain"
+      ],
+      "card_text": [
+        "Mega Lucario ex: \"During your next turn, this Pokémon can't use Mega Brave.\"",
+        "Premium Power Pro: \"attacks used by your {F} Pokémon do 30 more damage to your opponent's Active Pokémon\"",
+        "Gravity Mountain: \"Each Stage 2 Pokémon in play (both yours and your opponent's) gets -30 HP.\""
+      ],
+      "how_they_interact": "Mega Brave (270) can't be used two turns in a row, so Mega Lucario ex alternates: Aura Jab (130) to reload the Bench, then Mega Brave. With 3 Lucario in play, a second one can use Mega Brave on the in-between turn. Premium Power Pro (4 copies) adds 30 to either: 160 and 300. Gravity Mountain reduces opposing Stage 2 Pokémon, and none of this deck's Pokémon are Stage 2, so a 300 Mega Brave reaches a 320 HP Dragapult ex (290) or a 330 HP Hydrapple ex (300). Riolu (80 HP) is the Basic and the only one that can evolve into Lucario."
+    },
+    {
+      "cards": [
+        "Makuhita",
+        "Hariyama",
+        "Boss's Orders",
+        "Poké Pad",
+        "Premium Power Pro"
+      ],
+      "card_text": [
+        "Hariyama: \"when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Switch in 1 of your opponent's Benched Pokémon to the Active Spot.\"",
+        "Boss's Orders: \"Switch in 1 of your opponent's Benched Pokémon to the Active Spot.\"",
+        "Hariyama: \"This Pokémon also does 70 damage to itself.\""
+      ],
+      "how_they_interact": "Hariyama gusts when it evolves, without using the Supporter, so the same turn can have Lillie's Determination or Boss's Orders as well: two gusts, or a gust plus a draw. Poké Pad finds Hariyama (no Rule Box) and Makuhita must already be in play. Wild Press does 210 (240 with Premium Power Pro) for 3 Energy, and puts 70 damage on itself. Limit: Hariyama's Ability works only when it evolves from hand, so each Makuhita/Hariyama pair is one gust."
+    },
+    {
+      "cards": [
+        "Solrock",
+        "Lunatone",
+        "Premium Power Pro",
+        "Shaymin"
+      ],
+      "card_text": [
+        "Solrock: \"If you don't have Lunatone on your Bench, this attack does nothing. This attack's damage isn't affected by Weakness or Resistance.\"",
+        "Shaymin: \"Prevent all damage done to your Benched Pokémon that don't have a Rule Box by attacks from your opponent's Pokémon.\""
+      ],
+      "how_they_interact": "Lunatone sits on the Bench for its draw, which is also what Solrock's Cosmic Beam needs. That is 70 for 1 Energy, or 100 with Premium Power Pro, ignoring Weakness and Resistance, as a single-Prize attacker. Shaymin protects Lunatone, Solrock, Riolu and Makuhita on the Bench from spread damage. Mega Lucario ex has a Rule Box, so the Bench protection doesn't cover it."
+    },
+    {
+      "cards": [
+        "Lillie's Determination",
+        "Judge",
+        "Unfair Stamp",
+        "Meowth ex",
+        "Team Rocket's Petrel"
+      ],
+      "card_text": [
+        "Lillie's Determination: \"Shuffle your hand into your deck. Then, draw 6 cards.\"",
+        "Judge: \"Each player shuffles their hand into their deck and draws 4 cards.\"",
+        "Unfair Stamp: \"You can use this card only if any of your Pokémon were Knocked Out during your opponent's last turn.\"",
+        "Meowth ex: \"Search your deck for a Supporter card\"",
+        "Team Rocket's Petrel: \"Search your deck for a Trainer card\""
+      ],
+      "how_they_interact": "Draw and recovery. Lillie's draws 6 (8 at 6 Prizes) and is the main refill after Lunatone and Aura Jab have emptied the hand. Judge and Unfair Stamp reset both hands, which is the way to get out of a bad hand or come back after a Knock Out. Meowth ex and Petrel are the single copies that find the right piece (Meowth a Supporter, Petrel any Trainer, such as Premium Power Pro or Gravity Mountain). All of these shuffle the hand away, so attach Energy and use Lunatone first."
+    },
+    {
+      "cards": [
+        "Air Balloon",
+        "Switch",
+        "Mega Lucario ex",
+        "Hariyama",
+        "Riolu"
+      ],
+      "card_text": [
+        "Air Balloon: \"The Retreat Cost of the Pokémon this card is attached to is {C}{C} less.\"",
+        "Switch: \"Switch your Active Pokémon with 1 of your Benched Pokémon.\""
+      ],
+      "how_they_interact": "Retreat is a real cost here: Mega Lucario ex has Retreat 2 and Hariyama 3, and paying it discards Energy that Aura Jab just attached. Air Balloon makes Lucario free to retreat and Hariyama cost 1, and Switch is the free move for any Pokémon. They let the Active that used Mega Brave (which can't be used again) step aside for the next attacker."
+    }
+  ]
+}
